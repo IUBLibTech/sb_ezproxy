@@ -1,0 +1,16 @@
+### All stanzas here will require authentication ###
+
+Title UpToDate
+URL https://www.uptodate.com/contents/search?unid=^u&srcsys=EZPX83185751
+AllowVars u
+HJ https://www.uptodate.com
+HJ https://www.uptodateonline.com
+HJ uptodate.com
+HJ uptodateonline.com
+HJ utdol.com
+HJ www.uptodate.com
+HJ www.uptodateonline.com
+HJ www.utdol.com
+DJ uptodate.com
+
+INCLUDEFILE ../common_stanzas/aacrjournals.txt
