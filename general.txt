@@ -1870,46 +1870,6 @@ DJ id.elsevier.com
 Find redirect_uri=https://
 Replace redirect_uri=https://^A
 
-Title Science - AAAS (updated 20210831)
-URL https://www.sciencemag.org
-HJ aaas-prod.science.org
-HJ advances.sciencemag.org
-HJ classic.sciencemag.org
-HJ http://www.sciencemag.org
-HJ https://aaas-prod.science.org
-HJ https://advances.sciencemag.org
-HJ https://classic.sciencemag.org
-HJ https://immunology.sciencemag.org
-HJ https://news.sciencemag.org
-HJ https://robotics.sciencemag.org
-HJ https://sageke.sciencemag.org
-HJ https://science.org
-HJ https://science.sciencemag.org
-HJ https://sciencecareers.sciencemag.org
-HJ https://sciencemag.org
-HJ https://search.sciencemag.org
-HJ https://stke.sciencemag.org
-HJ https://stm.sciencemag.org
-HJ https://www.science.org
-HJ https://www.sciencemag.org
-HJ immunology.sciencemag.org
-HJ news.sciencemag.org
-HJ robotics.sciencemag.org
-HJ sageke.sciencemag.org
-HJ science.org
-HJ science.sciencemag.org
-HJ sciencecareers.sciencemag.org
-HJ sciencemag.org
-HJ search.sciencemag.org
-HJ stke.sciencemag.org
-HJ stm.sciencemag.org
-HJ www.science.org
-HJ www.sciencemag.org
-DJ aaas-prod.science.org
-DJ literatumonline.com
-DJ science.org
-DJ sciencemag.org
-
 Title MRI-Simmons Insights
 URL https://insights.mrisimmons.com/university/iusb
 HJ insights.mrisimmons.com
@@ -2412,51 +2372,6 @@ D chla.library.cornell.edu
 T Sora free database
 U http://elibrary.unm.edu
 D elibrary.unm.edu
-
-Title Science - AAAS (updated 20210712)
-URL https://www.sciencemag.org
-HJ http://www.sciencemag.org
-HJ https://science.sciencemag.org
-HJ https://sciencecareers.sciencemag.org
-HJ https://search.sciencemag.org
-HJ https://advances.sciencemag.org
-HJ https://immunology.sciencemag.org
-HJ https://robotics.sciencemag.org
-HJ https://stke.sciencemag.org
-HJ https://stm.sciencemag.org
-HJ https://sciencemag.org
-HJ https://www.sciencemag.org
-HJ https://news.sciencemag.org
-HJ https://classic.sciencemag.org
-HJ https://sageke.sciencemag.org
-HJ https://www.science.org
-HJ www.science.org
-HJ https://aaas-prod.science.org
-HJ science.sciencemag.org
-HJ sciencecareers.sciencemag.org
-HJ search.sciencemag.org
-HJ advances.sciencemag.org
-HJ immunology.sciencemag.org
-HJ robotics.sciencemag.org
-HJ stke.sciencemag.org
-HJ stm.sciencemag.org
-HJ sciencemag.org
-HJ www.science.org
-HJ www.sciencemag.org
-HJ news.sciencemag.org
-HJ classic.sciencemag.org
-HJ aaas-prod.science.org
-HJ sageke.sciencemag.org
-DJ sciencemag.org
-DJ science.org
-DJ aaas-prod.science.org
-DJ literatumonline.com
-# URL changed [per ralight] 9 January 2015 kw
-T World History in Video
-U http://search.alexanderstreet.com/whiv
-D search.alexanderstreet.com/whiv
-# U http://whiv.alexanderstreet.com
-# D whiv.alexanderstreet.com
 
 # Updated per ralight 2022-07-07
 AnonymousURL +https://api-production.jwatch.org/*
