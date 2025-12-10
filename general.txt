@@ -1031,19 +1031,6 @@ T Communication Arts
 U http://www.commarts.com
 H www.commarts.com
 
-# Updated per ralight 2023-01-10
-Title CQ Researcher  (updated 20230106)
-URL http://library.cqpress.com/cqresearcher/
-HJ library.cqpress.com
-# Additional https HJ added, not included in OCLC stanza
-HJ https://library.cqpress.com
-DJ library.cqpress.com
-DJ cqpress.com
-Find &url=http://
-Replace &url=http://^A
-Find &url=https://
-Replace &url=https://^A
-
 # Updated per CWL 2025-10-29
 Title Handbook of Chemistry and Physics (updated 20210329)
 URL http://www.chemnetbase.com
@@ -1826,37 +1813,6 @@ T Routledge Encyclopedia of Philosophy
 U http://www.rep.routledge.com/
 HJ www.rep.routledge.com<http://www.rep.routledge.com/>
 DJ rep.routledge.com
-
-## Added as sage.txt include file on 12/15 ##
-# Sage
-#U http://online.sagepub.com
-#U http://cad.sagepub.com 
-#U http://pss.sagepub.com
-#U http://psi.sagepub.com
-#U http://cnr.sagepub.com
-#U http://wjn.sagepub.com
-#U http://spr.sagepub.com
-#U http://hum.sagepub.com
-#U http://cjp.sagepub.com
-#u http://cbr.sagepub.com
-#u http://nvs.sagepub.com
-#U http://cps.sagepub.com
-#D cps.sagepub.com
-#D nvs.sagepub.com
-#D cbr.sagepub.com
-#D cjp.sagepub.com
-#D online.sagepub.com
-#D cad.sagepub.com
-#D pss.sagepub.com
-#D psi.sagepub.com
-#D cnr.sagepub.com
-#D wjn.sagepub.com
-#D spr.sagepub.com
-#D psp.sagepub.com
-#D hum.sagepub.com
-#H tpj.sagepub.com
-#H jea.sagepub.com
-#H cdp.sagepub.com
 
 T Sanborn Maps
 u http://Sanborn.umi.com
