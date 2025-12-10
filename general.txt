@@ -3236,9 +3236,6 @@ DJ psychotherapy.net
 NeverProxy player.vimeo.com
 NeverProxy cdnapisec.kaltura.com
 
-Title Today�s Science
-url http://online.infobaselearning.com/Direct.aspx?aid=106866&pid=WE59
-
 Title New York Times
 URL http://nytimes.com/grouppass
 HJ artsbeat.blogs.nytimes.com
@@ -3319,53 +3316,9 @@ DJ chicagomanualofstyle.org
 DJ login.chicagomanualofstyle.org
 Option Cookie
 
-AnonymousURL +https://ibaseptn.infobase.com/graphql
-Title Infobase (updated 20220128)
-URL https://login.infobase.com
-HJ login.infobase.com
-HJ https://online.infobaselearning.com
-HJ online.infobaselearning.com
-HJ https://www.infobase.com
-HJ www.infobase.com
-HJ https://ebooks.infobase.com
-HJ ebooks.infobase.com
-HJ ebooks.infobaselearning.com
-HJ online.infobase.com
-HJ https://www.infobasepublishing.com
-HJ www.infobasepublishing.com
-HJ infobasepublishing.com
-HJ https://video.infobase.com
-HJ video.infobase.com
-HJ https://learn360.infobase.com
-HJ https://www.learn360.infobase.com
-HJ https://online.infobase.com
-HJ https://icof.infobaselearning.com
-HJ learn360.infobase.com
-HJ www.learn360.infobase.com
-HJ bio.infobaselearning.com
-HJ wak.infobaselearning.com
-HJ icah.infobaselearning.com
-HJ icof.infobaselearning.com
-HJ tsof.infobaselearning.com
-HJ fcg.infobase.com
-HJ wake.infobase.com
-HJ wnd.infobase.com
-HJ online.factsonfile.com
-HJ www.factsonfile.com
-HJ factsonfile.com
-HJ wao.factsonfile.com
-HJ www.fofweb.com
-HJ fofweb.com
-HJ fofweb.infobase.com
-DJ infobaselearning.com
-DJ infobasepublishing.com
-DJ infobase.com
-NeverProxy ptn.infobase.com
-NeverProxy tsof.infobase.com
-AnonymousURL -*
-
 T Feature Films for Education
 U https://ffusa.infobase.com/
 HJ https://MEDIA3.CRITERIONPIC.COM/
 HJ https://MEDIA2.CRITERIONPIC.COM/
-D infobase.comDJ CRITERIONPIC.COM
+D infobase.com
+DJ CRITERIONPIC.COM
