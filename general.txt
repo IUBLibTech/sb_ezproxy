@@ -1078,24 +1078,6 @@ DJ hbcpnetbase.com
 DJ hbcponline.com
 DJ polymersdatabase.com
 
-Title Credo Reference
-URL https://search.credoreference.com
-HJ api.credoreference.com
-HJ homework.credoreference.com
-HJ literati.credoreference.com
-HJ search.credoreference.com
-HJ vle.credoreference.com
-HJ credoreference.com
-HJ www.credoreference.com
-HJ https://api.credoreference.com
-HJ https://homework.credoreference.com
-HJ https://search.credoreference.com
-HJ https://vle.credoreference.com
-HJ http://search.credoreference.com
-DJ credoreference.com
-NeverProxy assets.credoreference.com
-NeverProxy cdn.credoreference.com
-NeverProxy media.credoreference.com
 
 # Criterion on Demand
 Option X-Forwarded-For
