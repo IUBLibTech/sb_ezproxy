@@ -209,13 +209,11 @@ Replace hosttest="^ppubstest.acs.org^"
 Find hostprod="pubs.acs.org"
 Replace hostprod="^ppubs.acs.org^"
 
-T American Economic Association Web
-U http://www.aeaweb.org
-D www.aeaweb.org
-
-HTTPHeader X-CSRF-Token
-HTTPHeader X-Requested-With
-Title American Economic Association
+# Updated per alright 2026-01-09
+Title American Economic Association (updated 20200110)
+HTTPHeader -request -process X-CSRF-Token
+HTTPHeader -request -process X-Key
+HTTPHeader -request -process X-Requested-With
 URL https://www.aeaweb.org/
 HJ aeaweb.org
 HJ pubs.aeaweb.org
@@ -1573,19 +1571,6 @@ HJ www.liebertonline.com
 HJ www.liebertpub.com
 DJ liebertpub.com
 
-Title The MIT Press Direct (updated 20210607)
-HTTPHeader X-Tizra-Ajax
-HTTPHeader X-Requested-With
-URL https://direct.mit.edu
-HJ direct.mit.edu
-HJ https://direct.mit.edu
-HJ https://www.direct.mit.edu
-HJ www.direct.mit.edu
-DJ mit.edu
-T Palgrave macmillan Journals
-U http://www.palgrave-journals.com
-D palgrave-journals.com
-
 T physrev.physiology.org
 U http://physrev.physiology.org
 U http://ajpcell.physiology.org
@@ -1610,9 +1595,10 @@ Title -hide DOI System (updated 20180302)
 URL http://dx.doi.org
 Domain doi.org
 
-HTTPHeader Access-Token
+# Updated per ralight 2026-01-09
 ProxyHostnameEdit www.tandfonline.com$ www-tandfonline-com
-Title Taylor & Francis (updated 20180806)
+Title Taylor & Francis (updated 20190318)
+HTTPHeader -request -process Access-Token
 URL https://www.tandfonline.com
 HJ http://www.tandfonline.com
 HJ journalsonline.tandf.co.uk
@@ -1965,28 +1951,26 @@ HJ www.biologists.com
 HJ biologists.org
 DJ biologists.org
 
+# Updated per ralight 2026-01-09
+# HTTPheader localized
 MimeFilter application/json .* javascript
 Option DomainCookieOnly
-HTTPHeader x-cobalt-*
-HTTPHeader X-Requested-With
+HTTPHeader -request -process x-cobalt-*
+HTTPHeader -request -process X-Requested-With
 HTTPMethod DELETE
 HTTPMethod PUT
 HTTPMethod PATCH
-T TR Westlaw Campus Research
-U https://1.next.westlaw.com/Search/Home.html?rs=IWLN1.0&vr=3.0&sp=000503096-2100&forcecdn=false&bhskip=1
+Title WestlawNext Campus Research (updated 20200731)
+URL https://1.next.westlaw.com/Search/Home.html?rs=IWLN1.0&vr=3.0&sp=YOURSPONSORSHIP&forcecdn=false&bhskip=1
 DJ westlaw.com
 Option Cookie
 NeverProxy c1.next.westlaw.com:443
-NeverProxy i1.next.westlaw.com:443
-NeverProxy j1.next.westlaw.com:443
 NeverProxy ca.next.westlaw.com:443
+NeverProxy i1.next.westlaw.com:443
 NeverProxy ia.next.westlaw.com:443
+NeverProxy j1.next.westlaw.com:443
 NeverProxy ja.next.westlaw.com:443
 NeverProxy a.next.westlaw.com:443
-# if Option X-Forwarded-For is above this, then include:
-Option NoX-Forwarded-For
-# If using recommended wildcard certificate, then include:
-Option HttpsHyphens
 
 Title Ethnologue
 URL https://www.ethnologue.com
@@ -2169,8 +2153,10 @@ DJ www.harpers.org
 T ACI Scholarly Blog Index
 U  http://iusb.aci.info
 
-HTTPHeader X-Requested-With
-HTTPHeader X-GWT-*
+# Updated per ralight 2026-01-09
+# HTTPheader localized
+HTTPHeader -request -process X-Requested-With
+HTTPHeader -request -process X-GWT-*
 T Ready Reference
 U http://readyreference.data-planet.com
 DJ data-planet.com
@@ -2395,12 +2381,13 @@ Host scholar.google.it
 T -hide DOI System
 U http://dx.doi.org
 Domain doi.org
-HTTPHeader Access-Token
-ProxyHostnameEdit rep.routledge.com$ rep-routledge-com
-T Routledge Encyclopedia of Philosophy
-U https://www.rep.routledge.com/
-HJ www.rep.routledge.com<http://www.rep.routledge.com>
-DJ rep.routledge.com
+
+# Updated per ralight 2026-01-09
+Title Routledge Encyclopedia of Philosophy (updated 20150622)
+URL https://www.rep.routledge.com/
+HJ rep.routledge.com
+HJ www.rep.routledge.com
+DJ routledge.com
 
 T Project Muse EBA Books 
 U http://muse.jhu.edu
