@@ -1999,13 +1999,6 @@ Group Default
 #URL	http://10.225.33.32
 #DJ 	10.225.33.32
 
-Title USMLE easy
-URL https://new.usmle-easy.com/institution
-URL https://new.usmle-easy.com/institution?encInsId=NDUzMjQyMzAx
-DJ s3.amazonaws.com
-DJ usmle-Easy.com
-DJ paeasy.com
-DJ mheducation.com
 
 Title American Philosophical Quarterly
 URL http://apq.press.illinois.edu
