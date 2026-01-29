@@ -683,9 +683,6 @@ HJ http://app.harpweek.com
 HJ harpweek.com
 DJ harpweek.com
 
-T Harvard Education Review
-U http://hepgjournals.org/loi/haer
-H hepgjournals.org
 
 T Historical New York Times
 U http://www.proquest.com
