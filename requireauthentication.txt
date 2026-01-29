@@ -16,3 +16,4 @@ DJ uptodate.com
 INCLUDEFILE ../common_stanzas/aacrjournals.txt
 INCLUDEFILE ../common_stanzas/clarivate.txt
 INCLUDEFILE ../common_stanzas/mathscinet.txt
+INCLUDEFILE ../common_stanzas/harvard-educational-review.txt
