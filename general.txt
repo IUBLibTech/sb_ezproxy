@@ -1406,9 +1406,6 @@ D smi.curtin.edu.au
 D education.curtin.edu.au
 D iej.cjb.net
 
-T Blackwell journals
-U http://www.blackwell-synergy.com
-D blackwell-synergy.com
 
 T cell journals
 U http://www.cell.com
