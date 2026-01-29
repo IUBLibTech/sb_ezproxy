@@ -1,11 +1,3 @@
-
-# Added per ralight 2022-12-20
-Title GEOPlugin (updated 20200423)
-URL https://ssl.geoplugin.net
-Host https://ssl.geoplugin.net
-HJ ssl.geoplugin.net
-DJ geoplugin.net
-
 Title 	Titan News
 URL 	https://dt.iusb.edu
 Domain	dt.iusb.edu
@@ -2582,21 +2574,6 @@ DJ nytstore.com
 HJ nytimesineducation.com
 HJ www.nytimesineducation.com
 DJ nytimesineducation.com
-
-
-Title GEOPlugin (updated 20200423)
-URL https://ssl.geoplugin.net
-Host https://ssl.geoplugin.net
-HJ ssl.geoplugin.net
-DJ geoplugin.net
-
-Title Drama Online
-URL https://www.dramaonlinelibrary.com/
-HJ www.dramaonlinelibrary.com<http://www.dramaonlinelibrary.com>
-HJ dramaonlinelibrary.com
-HJ https://www.dramaonlinelibrary.com
-HJ https://dramaonlinelibrary.com
-DJ dramaonlinelibrary.com
 
 # Added per ralight 2023-11-16
 Title Scholarly Publishing Collective (updated 20211013)
