@@ -499,9 +499,7 @@ HJ www.hbcponline.com
 DJ chemnetbase.com
 DJ hbcponline.com
 
-Title -hide DOI System
-U http://dx.doi.org
-D doi.org
+# DOI system moved to common stanza
 
 # Updated per ralight 2022-07-07
 Title Newsbank/Readex Databases (updated 20220628)
@@ -1081,10 +1079,7 @@ T Rheumatologist
 U http://www.the-rheumatologist.org/view/index.html
 H www.the-rheumatologist.org
 
-# Routledge Encyclopedia of Philosophy identifiers
-T -hide DOI System
-U http://dx.doi.org<http://dx.doi.org/>
-Domain doi.org
+
 T Routledge Encyclopedia of Philosophy
 U http://www.rep.routledge.com/
 HJ www.rep.routledge.com<http://www.rep.routledge.com/>
@@ -1387,10 +1382,6 @@ D www.sloan-c.org
 T Sloan Review
 URL http://sloanreview.mit.edu/issue
 Host sloanreview.mit.edu
-
-Title -hide DOI System (updated 20180302)
-URL http://dx.doi.org
-Domain doi.org
 
 # Updated per ralight 2026-01-09
 ProxyHostnameEdit www.tandfonline.com$ www-tandfonline-com
@@ -1775,13 +1766,6 @@ URL https://www.ethnologue.com
 #Trial
 
 
-# Many sites use dx.doi.org when linking from one database to another.
-# Useful Utilities recommends leaving this definition in your configuration
-# file.  The special -hide option prevents this from showing up in your
-# database menu
-#Title -hide Digital Object Identifier System
-#URL http://dx.doi.org
-#Domain doi.org
 
 Group Default
 
@@ -2167,10 +2151,6 @@ Host scholar.google.be
 Host https://scholar.google.it
 Host scholar.google.it
 
-# Routledge Encyclopaedia of Philosophy identifiers
-T -hide DOI System
-U http://dx.doi.org
-Domain doi.org
 
 # Updated per ralight 2026-01-09
 Title Routledge Encyclopedia of Philosophy (updated 20150622)
