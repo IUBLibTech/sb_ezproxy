@@ -602,19 +602,7 @@ T InformaWorld
 U http://www.informaworld.com
 D informaworld.com
 
-Title INGENTAconnect
-URL https://www.ingenta.com/
-HJ http://www.ingenta.com
-HJ www.ingenta.com
-HJ www.ingentaconnect.com
-HJ http://www.ingentaconnect.com
-HJ ingenta.com
-HJ ingentaconnect.com
-DJ ingenta.com
-DJ ingentaconnect.com
-HJ openurl.ingenta.com
-HJ www.publishingtechnology.com
-DJ publishingtechnology.com
+# IngentaConnect moved to common stanza
 
 #T Instruction Request Form
 #U http://www.iusb.edu/~libg/BIRequest.html
