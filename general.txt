@@ -554,9 +554,7 @@ DJ liblynx.com
 
 # Britannica - Consumer moved to common stanza
 
-T Ent Today 
-U http://www.enttoday.org
-H www.enttoday.org
+# Ent Today moved to common stanza
 
 T Environment and Planning
 U http://www.envplan.com/allvols.cgi?journal=A 
