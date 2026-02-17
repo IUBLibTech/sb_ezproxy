@@ -552,10 +552,7 @@ URL https://connect.liblynx.com
 HJ connect.liblynx.com
 DJ liblynx.com 
 
-T Encyclopedia Mobile Britannica
-U http://m.eb.com
-D eb.com
-D britannica.com
+# Britannica - Consumer moved to common stanza
 
 T Ent Today 
 U http://www.enttoday.org
