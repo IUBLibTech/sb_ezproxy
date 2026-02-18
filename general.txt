@@ -1654,7 +1654,8 @@ HJ www.biologists.com
 HJ biologists.org
 DJ biologists.org
 
-# Updated per ralight 2026-01-09
+# Updated per ralight 2026-02-18
+# BE SURE TO CUSTOMIZE SPU WHEN UPDATAING STANZA
 # HTTPheader localized
 MimeFilter application/json .* javascript
 Option DomainCookieOnly
@@ -1664,7 +1665,7 @@ HTTPMethod DELETE
 HTTPMethod PUT
 HTTPMethod PATCH
 Title WestlawNext Campus Research (updated 20200731)
-URL https://1.next.westlaw.com/Search/Home.html?rs=IWLN1.0&vr=3.0&sp=YOURSPONSORSHIP&forcecdn=false&bhskip=1
+URL https://1.next.westlaw.com/Search/Home.html?rs=IWLN1.0&vr=3.0&sp=000503096-2100&forcecdn=false&bhskip=1
 DJ westlaw.com
 Option Cookie
 NeverProxy c1.next.westlaw.com:443
