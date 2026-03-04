@@ -1111,10 +1111,7 @@ T Webster Dictionary
 U http://www.mwu.eb.com
 D www.mwu.eb.com
 
-Title OCLC FirstSearch
-URL https://firstsearch.oclc.org/FSIP
-DJ https://oclc.org
-HJ https://newfirstsearch.oclc.org
+# OCLC FirstSearch moved to common_stanza
 
 T Wright Am Fiction
 U http://www.letrs.indiana.edu
