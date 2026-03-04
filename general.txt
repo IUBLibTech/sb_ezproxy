@@ -1002,8 +1002,6 @@ D refuniv.odyssi.com
 T Serials Solutions
 U http://tt5xg8qf8p.search.serialssolutions.com
 U http://tt5xg8qf8p.cs.serialssolutions.com
-HJ https://www.liebertpub.com
-HJ https://online.liebertpub.com
 DJ serialssolutions.com
 
 #T Statistical DataSet
@@ -1220,23 +1218,7 @@ T Japanese journal archives
 u http://www.journalarchive.jst.go.jp
 D www.journalarchive.jst.go.jp
 
-# Updated per ralight 2023-03-02
-T Liebert (updated 20230223)
-U https://www.liebertpub.com
-HJ home.liebertpub.com
-HJ https://home.liebertpub.com
-HJ https://liebertonline.com
-HJ https://liebertpub.com
-HJ https://mal.scienceconnect.io
-HJ https://online.liebertpub.com
-HJ https://www.liebertonline.com
-HJ liebertonline.com
-HJ liebertpub.com
-HJ mal.scienceconnect.io
-HJ online.liebertpub.com
-HJ www.liebertonline.com
-HJ www.liebertpub.com
-DJ liebertpub.com
+# Liebert moved to common_stanza
 
 T physrev.physiology.org
 U http://physrev.physiology.org
