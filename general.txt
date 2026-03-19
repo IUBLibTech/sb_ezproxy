@@ -2074,12 +2074,23 @@ Title foundation Directory Online
 U https://fconline.foundationcenter.org
 D fconline.foundationcenter.org
 
-Title The Economist
-URL https://www.economist.com
-HJ http://www.economist.com
+# Updated per ralight 2026-03-19
+AnonymousURL +https://cms-films.economist.com/*
+Title The Economist (updated 20210312)
+HTTPHeader -request -process X-Requested-With
+URL https://www.economist.com/
+HJ https://www.economist.com
 HJ www.economist.com
-HJ economist.com
 DJ economist.com
+Find &domain=economist.com&
+Replace &domain=economist.com.^h&
+Find ="economist.com"
+Replace ="economist.com.^h"
+Find http://www.economist.com/
+Replace http://^pwww.economist.com^/
+Find https://www.economist.com/
+Replace https://^swww.economist.com^/
+AnonymousURL -*
 
 # Updated per ralight 2023-09-13
 AnonymousURL https://statcdn.com/*
