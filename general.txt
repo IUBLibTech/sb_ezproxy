@@ -116,23 +116,7 @@ DJ aapebooks.org
 DJ aap.org
 Neverproxy aap2.silverchair-cdn.com
 
-Title American Chemical Society
-URL http://pubs.acs.org
-HJ acs.org
-HJ cenglobal.acs.org
-HJ https://cenglobal.acs.org
-HJ https://pubs.acs.org
-HJ pubs.acs.org
-HJ www.acs.org
-HJ www.chemistry.org
-HJ www.pubs.acs.org
-DJ acs.org
-Find hostdev="pubsdev.acs.org"
-Replace hostdev="^ppubsdev.acs.org^"
-Find hosttest="pubstest.acs.org"
-Replace hosttest="^ppubstest.acs.org^"
-Find hostprod="pubs.acs.org"
-Replace hostprod="^ppubs.acs.org^"
+# American Chemical Society moved to common stanza
 
 # Updated per alright 2026-01-09
 Title American Economic Association (updated 20200110)
