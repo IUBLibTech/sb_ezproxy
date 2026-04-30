@@ -507,16 +507,7 @@ DJ yale.edu
 HJ hraf01.its.yale.edu
 HJ 130.132.52.51
 
-# Updated per ralight 2022-07-07
-Title Fulcrum (updated 20180731)
-URL https://www.fulcrum.org
-HJ hdl.handle.net
-HJ https://hdl.handle.net
-HJ www.fulcrum.org
-HJ https://www.fulcrum.org
-HJ fulcrum.org
-HJ https://fulcrum.org
-DJ fulcrum.org 
+# Fulcrum moved to common stanza
 
 Title LibLynx (updated 20190624)
 URL https://connect.liblynx.com
@@ -838,16 +829,7 @@ URL https://www.learningexpresshub.com?Authtoken=3caa6f20-f4fa-4570-b074-c33be7d
 HJ www.learningexpresshub.com
 DJ learningexpresshub.com
 
-T Project Muse Journals
-U https://muse.jhu.edu/
-D jhu.edu
-
-Title Project Muse
-URL https://muse.jhu.edu/
-HJ https://muse.jhu.edu
-HJ muse.jhu.edu
-HJ muse.uq.edu.au
-DJ muse.jhu.edu
+# Project Muse moved to common stanza
 
 # Removed [per ralight] 29 January 2015 kw
 # T Project Gutenberg Online Catalog link (Great Expextations ebooks)
@@ -1042,29 +1024,7 @@ HJ www.press.uchicago.edu
 DJ uchicago.edu
 Option Cookie
 
-ProxyHostnameEdit www.google.com$ www-google-com
-T Value Line (updated 20141124)
-MimeFilter application/json .* javascript
-U https://research.valueline.com/secure/research
-HJ research.valueline.com
-HJ www.valueline.com
-HJ www3.valueline.com
-HJ jump.valueline.com
-HJ skip.valueline.com
-HJ https://jump.valueline.com
-DJ valueline.com
-DJ www.google.com
-DJ googleapis.com
-Find name="RelayState" value="https://
-Replace name="RelayState" value="https://^A
-Find name='RelayState' value='https://
-Replace name='RelayState' value='https://^A
-Find 'http:\x2F\x2F
-Replace 'http://
-Find "//www.google.com/
-Replace "https://www.google.com/
-Find googleSearchDomain = "www.google.com";
-Replace googleSearchDomain = "^pwww.google.com^";
+# Value Line moved to common stanza
 
 T Webster Dictionary
 U http://www.mwu.eb.com
@@ -1802,25 +1762,7 @@ URL https://www.r2library.com
 HOST www.r2library.com
 DJ r2library.com
 
-# Updated per ralight 2023-01-18
-Title Highwire Press (updated 20230110)
-URL https://www.highwirepress.com/
-HJ highwire.org
-HJ highwire.stanford.edu
-HJ highwirepress.com
-HJ home.highwire.org
-HJ https://highwirepress.com
-HJ https://plato.stanford.edu
-HJ https://www.highwire.org
-HJ https://www.highwirepress.com
-HJ openurl.highwire.org
-HJ plato.stanford.edu
-HJ www.highwire.org
-HJ www.highwirepress.com
-HJ https://portal.highwire.org
-HJ portal.highwire.org
-DJ highwirepress.com
-DJ stanford.edu
+# TeachingBooks moved to common stanza
 
 AnonymousURL +https://media.digitaltheatreplus.com/drm*
 AnonymousURL +https://counter.digitaltheatreplus.com/*
@@ -1905,38 +1847,8 @@ HJ nytimesineducation.com
 HJ www.nytimesineducation.com
 DJ nytimesineducation.com
 
-# Updated per ralight 2022-10-14
-Title Google Scholar (Updated 20221007)
-URL http://scholar.google.com
-Host https://scholar.google.com
-Host scholar.google.com.au
-Host https://scholar.google.com.au
-Host scholar.google.ca
-Host https://scholar.google.ca
-Host scholar.google.de
-Host https://scholar.google.de
-Host scholar.google.fi
-Host https://scholar.google.fi
-Host scholar.google.com.hk
-Host https://scholar.google.com.hk
-Host scholar.google.nl
-Host https://scholar.google.nl
-Host scholar.google.co.nz
-Host https://scholar.google.co.nz
-Host scholar.google.co.uk
-Host https://scholar.google.co.uk
-Host scholar.google.se
-Host https://scholar.google.se
-Host scholar.google.co.za
-Host https://scholar.google.co.za
-Host www.scholar.google.com
-Host https://scholar.google.ae
-Host scholar.google.ae
-Host https://scholar.google.be
-Host scholar.google.be
-Host https://scholar.google.it
-Host scholar.google.it
-
+# Google Scholar moved to common stanza
+# INSPIRE moved to common stanza
 
 # Updated per ralight 2026-01-09
 Title Routledge Encyclopedia of Philosophy (updated 20150622)
@@ -1944,9 +1856,6 @@ URL https://www.rep.routledge.com/
 HJ rep.routledge.com
 HJ www.rep.routledge.com
 DJ routledge.com
-
-T Project Muse EBA Books 
-U http://muse.jhu.edu
 
 T Marc records websites 
 U http://muse.jhu.edu/eba/program/iusb
