@@ -14,16 +14,7 @@ Domain	bb.iusb.edu
 
 # ACM Digital Library moved to common stanza: acmdigital.txt
 
-# Updated to https per ralight 2022-07-29
-Title AAPG Datapages
-URL https://archives.datapages.com/
-HJ http://archives.datapages.com/
-HJ search.datapages.com
-HJ www.aapg.org
-HJ www.searchanddiscovery.com
-DJ datapages.com
-DJ aapg.org
-DJ searchanddiscovery.com
+# AAPG Datapages moved to common stanza
 
 T AERA SIG Communications of Research
 U http://aera-cr.asu.edu
@@ -409,66 +400,7 @@ T Communication Arts
 U http://www.commarts.com
 H www.commarts.com
 
-# Updated per CWL 2025-10-29
-Title Handbook of Chemistry and Physics (updated 20210329)
-URL http://www.chemnetbase.com
-HJ carbo.chemnetbase.com
-HJ ccd.chemnetbase.com
-HJ chemnetbase.com
-HJ dccc.chemnetbase.com
-HJ dfc.chemnetbase.com
-HJ dioc.chemnetbase.com
-HJ dmnp.chemnetbase.com
-HJ dnp.chemnetbase.com
-HJ doc.chemnetbase.com
-HJ dod.chemnetbase.com
-HJ hbcp.chemnetbase.com
-HJ hbcpnetbase.com
-HJ hbcponline.com
-HJ https://ccd.chemnetbase.com
-HJ https://chemnetbase.com
-HJ https://dccc.chemnetbase.com
-HJ https://dfc.chemnetbase.com
-HJ https://dioc.chemnetbase.com
-HJ https://dmnp.chemnetbase.com
-HJ https://dnp.chemnetbase.com
-HJ https://doc.chemnetbase.com
-HJ https://dod.chemnetbase.com
-HJ https://hbcp.chemnetbase.com
-HJ https://hbcpnetbase.com
-HJ https://hbcponline.com
-HJ https://poc.chemnetbase.com
-HJ https://poly.chemnetbase.com
-HJ https://polymersdatabase.com
-HJ https://www.chemnetbase.com
-HJ https://www.hbcpnetbase.com
-HJ https://www.hbcponline.com
-HJ https://www.polymersdatabase.com
-HJ poc.chemnetbase.com
-HJ poly.chemnetbase.com
-HJ polymersdatabase.com
-HJ www.chemnetbase.com
-HJ www.hbcpnetbase.com
-HJ www.hbcponline.com
-HJ www.polymersdatabase.com
-DJ chemnetbase.com
-DJ hbcpnetbase.com
-DJ hbcponline.com
-DJ polymersdatabase.com
-
-# Updated per RAL 2021-04-19
-Title Handbook of Chemistry and Physics (updated 20210329)
-URL http://hbcp.chemnetbase.com/
-HJ hbcp.chemnetbase.com
-HJ hbcponline.com
-HJ https://hbcp.chemnetbase.com
-HJ https://hbcpnetbase.com
-HJ https://hbcponline.com
-HJ https://www.hbcpnetbase.com
-HJ https://www.hbcponline.com
-HJ www.hbcponline.com
-DJ chemnetbase.com
-DJ hbcponline.com
+# Handbook of Chemistry and Physics moved to common stanza
 
 # DOI system moved to common stanza
 
@@ -1911,19 +1843,7 @@ HJ charleston.publisher.ingentaconnect.com
 HJ ingentaconnect.com
 DJ ingentaconnect.com
 
-AnonymousURL +https://api.wileydigitalarchives.com/*
-Title Wiley Digital Archives
-URL https://app.wileydigitalarchives.com/
-HJ https://app.wileydigitalarchives.com
-HJ https://api.wileydigitalarchives.com
-NeverProxy content.wileydigitalarchives.com
-NeverProxy ajax.googleapis.com
-NeverProxy cdnjs.cloudflare.com
-NeverProxy fonts.googleapis.com
-NeverProxy fonts.gstatic.com
-NeverProxy js.zapjs.com
-NeverProxy maxcdn.bootstrapcdn.com
-AnonymousURL -*
+#  Wiley Digital Archives moved to common stanza
 
 # Updated per ralight 2021-11-30
 Title University Press Scholarship Online (updated 20211124)
