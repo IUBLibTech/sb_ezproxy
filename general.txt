@@ -386,6 +386,8 @@ HJ www.choicereviews.org
 HJ choicereviews.org
 DJ choicereviews.org
 
+# CIC E-publishing Venture moved to common stanza: cic-epublishing-venture.txt
+
 # Updated per ralight 2022-12-20
 Title Cite Them Right Online (updated 20220602)
 URL https://www.citethemrightonline.com/
@@ -842,6 +844,8 @@ T Sanborn Maps
 u http://Sanborn.umi.com
 d Sanborn.umi.com
 
+# Scientific American moved to common stanza: scientific-american.txt
+
 Title -hide Elsevier Identity
 URL https://id.elsevier.com
 HJ https://id.elsevier.com
@@ -905,16 +909,7 @@ Replace gsUrl%22%3A%22https%3A%2F%2F^pwww.scopus.com^%2F
 NeverProxy www.elsevier.com
 AnonymousURL -*
 
-Title Swank Digital Campus
-URL https://digitalcampus.swankmp.net/iusb299677
-H digitalcampus.swankmp.net
-H digitalcampus.swankmp.com
-H dc.swankmp.com
-H https://digitalcampus.swankmp.net
-H https://digitalcampus.swankmp.com
-H https://dc.swankmp.com
-D swankmp.com
-D swankmp.net
+# Swank Digital Campus moved to common stanza: swank-digital-campus.txt
 
 Title Ulrichsweb
 URL https://ulrichsweb.serialssolutions.com/
