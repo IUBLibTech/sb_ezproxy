@@ -148,95 +148,7 @@ T Annals of Mathematics
 U https://annals.math.princeton.edu
 D annals.math.princeton.edu
 
-# Updated per ralight 2023-02-21
-Title Annual Reviews (updated 20211214)
-URL https://www.annualreviews.org/
-HJ anchem.annualreviews.org
-HJ animal.annualreviews.org
-HJ annualreviews.org
-HJ anthro.annualreviews.org
-HJ arcompsci.annualreviews.org
-HJ arjournals.annualreviews.org
-HJ arplant.annualreviews.org
-HJ astro.annualreviews.org
-HJ biochem.annualreviews.org
-HJ biodatasci.annualreviews.org
-HJ bioeng.annualreviews.org
-HJ biophys.annualreviews.org
-HJ cancerbio.annualreviews.org
-HJ cellbio.annualreviews.org
-HJ chembioeng.annualreviews.org
-HJ clinpsy.annualreviews.org
-HJ conmatphys.annualreviews.org
-HJ control.annualreviews.org
-HJ criminol.annualreviews.org
-HJ devpsych.annualreviews.org
-HJ earth.annualreviews.org
-HJ ecolsys.annualreviews.org
-HJ economics.annualreviews.org
-HJ energy.annualreviews.org
-HJ ento.annualreviews.org
-HJ financial.annualreviews.org
-HJ fluid.annualreviews.org
-HJ food.annualreviews.org
-HJ genet.annualreviews.org
-HJ genom.annualreviews.org
-HJ http://www.annualreviews.org
-HJ https://annualreviews.org
-HJ https://arplant.annualreviews.org
-HJ immunol.annualreviews.org
-HJ knowablemagazine.org
-HJ lawsocsci.annualreviews.org
-HJ linguistics.annualreviews.org
-HJ marine.annualreviews.org
-HJ matsci.annualreviews.org
-HJ med.annualreviews.org
-HJ micro.annualreviews.org
-HJ neuro.annualreviews.org
-HJ nucl.annualreviews.org
-HJ nutr.annualreviews.org
-HJ orgpsych.annualreviews.org
-HJ pathmechdis.annualreviews.org
-HJ pharmtox.annualreviews.org
-HJ physchem.annualreviews.org
-HJ physiol.annualreviews.org
-HJ phyto.annualreviews.org
-HJ plant.annualreviews.org
-HJ polisci.annualreviews.org
-HJ psych.annualreviews.org
-HJ publhealth.annualreviews.org
-HJ resource.annualreviews.org
-HJ soc.annualreviews.org
-HJ statistics.annualreviews.org
-HJ virology.annualreviews.org
-HJ vision.annualreviews.org
-HJ www.annualreviews.org
-DJ annualreviews.org
-DJ knowablemagazine.org
-
-T Annual Review of Earth and Planetary Sciences
-U http://earth.AnnualReviews.org/
-D AnnualReviews.org
-
-T Annual Review of Astronomy and Astrophysics
-U http://astro.annualreviews.org/
-D AnnualReviews.org
-
-T Annual Review of Physical Chem
-U http://physchem.annualreviews.org
-D annualreviews.org
-
-T Annual Review of Pyschology
-U http://psych.annualreviews.org
-D annualreviews.org
-
-T Annual Review of Sociology
-U http://soc.annualreviews.org
-D annualreviews.org
-
-T Annual Review of Anthropology
-U http://anthro.annualreviews.org
-D annualreviews.org
+# Annual Reviews moved to common stanza: annual-reviews.txt
 
 Title Archives of Institutional Memory (AIM)
 URL http://institutionalmemory.iu.edu/aim/handle/10333/3317
@@ -1037,16 +949,6 @@ T www.agiweb.org
 U http://www.agiweb.org
 D www.agiweb.org
 
-# Updated per RAL 2019-12-10
-Title ESA Journals (Ecological Society of America)
-URL https://www.esa.org
-HJ www.esa.org
-HJ esa.org
-HJ http://www.esajournals.org
-HJ www.esajournals.org
-HJ esajournals.org
-DJ esa.org
-DJ esajournals.org
 
 T France Journals Online
 U http://www.persee.fr
