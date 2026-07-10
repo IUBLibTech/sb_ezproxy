@@ -511,6 +511,8 @@ T libguides
 U http://libguides.iusb.edu/az.php?a=s&q=scifinder
 H libguides.iusb.edu
 
+# Loex Quarterly moved to common stanza: loex-quarterly.txt
+
 T Kanopy
 U http://iusb.kanopy.com
 H https://iusb.kanopy.com
@@ -638,10 +640,6 @@ T NetFirst Internet Directory
 U http://data.inspire.net/WebZ/Authorize?sessionid=0&style=extra&next=startscreen
 D inspire.net
 
-Title New York Review of Books
-URL http://www.nybooks.com
-DJ www.nybooks.com
-
 # New [per xichen] 18 December 2014 kw
 T Open Access Digital library  
 U http://www.artnewsonline.com
@@ -665,9 +663,7 @@ T Physical Reveiw Online Archive
 U http://prola.aps.org
 D prola.aps.org
 
-T Portico Project
-U http://www.portico.org
-D www.portico.org
+# Portico moved to common stanza: portico.txt
 
 # Stanza added for trial access 2020-11-30
 Title PrepSTEP for Colleges and Universities Edition
@@ -953,8 +949,7 @@ T realyc
 u http://redalyc.uaemex.mx
 D redalyc.uaemex.mx
 
-U http://www.r2library.com
-H www.r2library.com
+# R2 Digital Library moved to common stanza: r2-digital-library.txt
 
 T Sloan journals online
 U http://www.sloan-c.org
@@ -1241,9 +1236,7 @@ T single journals
 u http://mcfarland.metapress.com
 d mcfarland.metapress.com
 
-T single journals
-u http://commons.emich.edu
-d commons.emich.edu
+
 
 # Updated per RAL 2020-08-18
 # Single Journals - Women's Art Journal in 360 KB
