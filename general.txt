@@ -792,47 +792,8 @@ NeverProxy www.elsevier.com
 AnonymousURL -*
 
 # Swank Digital Campus moved to common stanza: swank-digital-campus.txt
-
-Title Ulrichsweb
-URL https://ulrichsweb.serialssolutions.com/
-HJ ulrichsweb.serialssolutions.com
-HJ https://ulrichsweb.serialssolutions.com
-HJ www.ulrichsweb.serialssolutions.com<http://www.ulrichsweb.serialssolutions.com>
-DJ serialssolutions.com
-HJ ulrichsweb.serialssolutions.com
-HJ www.ulrichsweb.serialssolutions.com<http://www.ulrichsweb.serialssolutions.com>
-HJ https://clientcenter.serialssolutions.com
-HJ clientcenter.serialssolutions.com
-HJ www.serialssolutions.com<http://www.serialssolutions.com>
-HJ serialssolutions.com
-DJ serialssolutions.com
-HJ www.ulrichsweb.com<http://www.ulrichsweb.com>
-HJ ulrichsweb.com
-DJ ulrichsweb.com
-HJ http://ulrichsweb.serialssolutions.com
-
-# Updated per ralight 2022-08-15
-Option DomainCookieOnly
-T University of Chicago Press Journals (OCLC IncludeFile updated 20220810)
-U http://www.journals.uchicago.edu
-HJ artfl-project.uchicago.edu
-HJ cjtcs.cs.uchicago.edu
-HJ el.press.uchicago.edu
-HJ https://artfl-project.uchicago.edu
-HJ https://el.press.uchicago.edu
-HJ https://journals.uchicago.edu
-HJ https://www.journals.uchicago.edu
-HJ humanities.uchicago.edu
-HJ journals.uchicago.edu
-HJ letterpress.uchicago.edu
-HJ lib.uchicago.edu
-HJ press.uchicago.edu
-HJ www.journals.uchicago.edu
-HJ www.lib.uchicago.edu
-HJ www.press.uchicago.edu
-DJ uchicago.edu
-Option Cookie
-
+# Ulrichsweb moved to common stanza: ulrichsweb.txt
+# University of Chicago Press Journals moved to common stanza: university-chicago-press-journals.txt
 # Value Line moved to common stanza
 
 T Webster Dictionary
@@ -959,21 +920,7 @@ T Sloan Review
 URL http://sloanreview.mit.edu/issue
 Host sloanreview.mit.edu
 
-# Updated per ralight 2026-01-09
-ProxyHostnameEdit www.tandfonline.com$ www-tandfonline-com
-Title Taylor & Francis (updated 20190318)
-HTTPHeader -request -process Access-Token
-URL https://www.tandfonline.com
-HJ http://www.tandfonline.com
-HJ journalsonline.tandf.co.uk
-HJ afs.tandfonline.com
-HJ amstat.tandfonline.com
-HJ tandfonline.com
-HJ www.journalsonline.tandf.co.uk
-DJ tandfonline.com
-HJ tandfprod.literatumonline.com
-HJ https://tandfonline.com
-DJ literatumonline.com
+# Taylor & Francis moved to common stanza: taylor-francis-online.txt
 
 #Single journal titles
 
@@ -1286,21 +1233,8 @@ T Missouri Botanic Garden Collections
 u https://www.biodiversitylibrary.org
 D www.biodiversitylibrary.org
 
-Title Salem Press Online
-URL http://www.salempress.com
-HJ www.salempress.com
-HJ www.history.salempress.com
-HJ history.salempress.com
-HJ www.literature.salempress.com
-HJ literature.salempress.com
-HJ www.science.salempress.com
-HJ science.salempress.com
-HJ www.health.salempress.com
-HJ health.salempress.com
-HJ online.salempress.com
-HJ salempress.com
-DJ salempress.com
-DJ history.salempress.com
+# Salem Press moved to common stanza: salem-press.txt
+
 Title The Company of Biologists
 URL http://www.biologists.org/
 HJ www.biologists.org
@@ -1598,50 +1532,7 @@ T Bates Visual Guide
 URL http://batesvisualguide.com
 D batesvisualguide.com
 
-Title New York Times
-URL https://www.nytimes.com/grouppass
-HJ artsbeat.blogs.nytimes.com
-HJ blogs.nytimes.com
-HJ cn.nytimes.com
-HJ cooking.nytimes.com
-HJ eedition.nytimes.com
-HJ ezmyaccount.nytimes.com
-HJ https://ezmyaccount.nytimes.com
-HJ graphics8.nytimes.com
-HJ https://myaccount.nytimes.com
-HJ international.nytimes.com
-HJ inyt.com
-HJ jobmarket.nytimes.com
-HJ lens.blogs.nytimes.com
-HJ mobile.nytimes.com
-HJ myaccount.nytimes.com
-HJ query.nytimes.com
-HJ nytimes.com
-HJ nytstore.com
-HJ opinionator.blogs.nytimes.com
-HJ parenting.blogs.nytimes.com
-HJ publiceditor.blogs.nytimes.com
-HJ realestate.nytimes.com
-HJ runway.blogs.nytimes.com
-HJ subscribe.inyt.com
-HJ theater.nytimes.com
-HJ tmagazine.blogs.nytimes.com
-HJ travel.nytimes.com
-HJ tvlistings.nytimes.com
-HJ typeface.nytimes.com
-HJ video.nytimes.com
-HJ well.blogs.nytimes.com
-HJ wordplay.blogs.nytimes.com
-HJ www.inyt.com
-HJ www.nytimes.com
-HJ www.nytstore.com
-DJ blogs.nytimes.com
-DJ inyt.com
-DJ nytimes.com
-DJ nytstore.com
-HJ nytimesineducation.com
-HJ www.nytimesineducation.com
-DJ nytimesineducation.com
+# Access NYT moved to common stanza: access-nyt.txt
 
 # Google Scholar moved to common stanza
 # INSPIRE moved to common stanza
