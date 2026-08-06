@@ -355,10 +355,7 @@ HJ 130.132.52.51
 
 # Fulcrum moved to common stanza
 
-Title LibLynx (updated 20190624)
-URL https://connect.liblynx.com
-HJ connect.liblynx.com
-DJ liblynx.com 
+# LibLynx moved to common stanza: liblynx.txt
 
 # Britannica - Consumer moved to common stanza
 
@@ -1494,34 +1491,7 @@ DJ r2library.com
 
 # TeachingBooks moved to common stanza
 
-AnonymousURL +https://media.digitaltheatreplus.com/drm*
-AnonymousURL +https://counter.digitaltheatreplus.com/*
-AnonymousURL +https://api.digitaltheatreplus.com/*
-Title Digital Theatre Plus (updated 20211214)
-HTTPHeader -request -process Bearer
-HTTPHeader -request -process x-dt-auth-token
-URL https://edu.digitaltheatreplus.com
-Host https://media.digitaltheatreplus.com
-Host search.digitaltheatreplus.com
-Host analytics.digitaltheatreplus.com
-Host https://counter.digitaltheatreplus.com
-Host api.digitaltheatreplus.com
-Host images.ctfassets.net
-Host assets.ctfassets.net
-Host d10eeigq6mvk6z.cloudfront.net
-Host lic.drmtoday.com
-Host cdn.contentful.com
-HJ analytics.digitaltheatreplus.com
-HJ api.digitaltheatreplus.com
-HJ counter.digitaltheatreplus.com
-HJ digitaltheatreplus.com
-HJ edu.digitaltheatreplus.com
-HJ https://digitaltheatreplus.com
-HJ https://www.digitaltheatreplus.com
-HJ media.digitaltheatreplus.com
-HJ www.digitaltheatreplus.com
-DJ digitaltheatreplus.com
-AnonymousURL -*
+# Digital Theatre Plus moved to common stanza: digital-theatre-plus.txt
 
 Title Society for Applied Anthropology
 URL http://sfaajournals.net
