@@ -543,21 +543,6 @@ Host www.londonlowlife.amdigital.co.uk
 
 # MathSciNet moved to common_stanzas
 
-T Metapress
-u http://www.metapress.com
-D metapress.com
-
-# Updated per ralight 2023-01-06
-T National Council of Teachers of Mathematics (OCLC IncludeFile updated 20230103)
-HTTPHeader -request -process X-Requested-With
-U https://www.nctm.org/
-HJ https://nctm.org
-HJ https://pubs.nctm.org
-HJ nctm.org
-HJ pubs.nctm.org
-HJ www.nctm.org
-DJ nctm.org
-
 T Moneyonline.com
 U http://www.maneyonline.com/
 D www.maneyonline.com/
