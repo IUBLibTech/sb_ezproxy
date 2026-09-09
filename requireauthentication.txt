@@ -1,5 +1,6 @@
 ### All stanzas here will require authentication ###
 
+# Last reviewed by ralight 2026-09-09
 Title UpToDate
 URL https://www.uptodate.com/contents/search?unid=^u&srcsys=EZPX83185751
 AllowVars u
