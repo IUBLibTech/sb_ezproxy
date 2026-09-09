@@ -1,48 +1,9 @@
-Title 	Titan News
-URL 	https://dt.iusb.edu
-Domain	dt.iusb.edu
-
-Title 	Titan News Test
-URL 	https://dt-test.iusb.edu
-Domain	dt-test.iusb.edu
-
-Title 	Bulletin Board
-URL 	https://bb.iusb.edu
-Domain	bb.iusb.edu
-
-# American Psychological Association (APA) [includes Academic Writer] moved to common stanza
-
+# AAPG Datapages moved to common stanza: aapg-datapages.txt
+# Access Anesthesiology moved to common stanza: mcgraw_hill_medical.txt
+# Access Medicine moved to common stanza: mcgraw_hill_medical.txt
+# Access Surgery moved to common stanza: mcgraw_hill_medical.txt
 # ACM Digital Library moved to common stanza: acmdigital.txt
-
-# AAPG Datapages moved to common stanza
-
-T AERA SIG Communications of Research
-U http://aera-cr.asu.edu
-U http://www.behavior.net
-D www.behavior.net
-D aera-cr.asu.edu
-
-Title AccessAnesthesiology
-URL http://accessanesthesiology.mhmedical.com
-HJ https://accessanesthesiology.mhmedical.com
-DJ accessanesthesiology.mhmedical.com
-DJ mhmedical.com
-DJ accessanesthesiology.com
-
-T Access Medicine
-U http://mhmedical.com
-H mhmedical.com
-U http://accessmedicine.mhmedical.com/book.aspx?bookID=1019
-H http://accessmedicine.mhmedical.com
-HJ https://accessmedicine.mhmedical.com
-
-Title Access Surgery
-URL http://accesssurgery.mhmedical.com
-HJ accesssurgery.mhmedical.com
-HJ www.accesssurgery.mhmedical.com
-HJ https://accesssurgery.mhmedical.com
-DJ mhmedical.com
-
+# American Psychological Association (APA) [includes Academic Writer] moved to common stanza: apa_psycnet.txt
 
 # Updated per ralight 2022-08-23
 Title Allen Press
@@ -53,61 +14,7 @@ HJ aamr.allenpress.com
 HJ allenpress.com
 DJ allenpress.com
 
-
-
-# Updated per ralight 2025-10-08
-Title American Academy of Pediatrics (20251001)
-URL https://publications.aap.org
-HJ https://publications.aap.org
-HJ https://publications.aap.org/aapgrandrounds/
-HJ https://publications.aap.org/neoreviews/
-HJ https://publications.aap.org/pediatrics/pages/policy/
-HJ https://publications.aap.org/redbook/
-HJ https://publications.aap.org/aapnews/
-HJ https://publications.aap.org/hospitalpediatrics/
-HJ https://publications.aap.org/pediatricsInreview/
-HJ https://publications.aap.org/pediatrics/
-HJ https://publications.aap.org/aapbooks/
-HJ https://publications.aap.org/journals/
-HJ https://publications.aap.org/codingnews
-HJ https://publications.aap.org/pediatriccare
-HJ https://publications.aap.org/patiented
-HJ https://publications.aap.org/toolkits
-HJ https://www.aap.org
-HJ https://coding.aap.org
-HJ https://aapgrandrounds.org
-HJ https://neoreviews.org
-HJ https://aappolicy.org
-HJ https://aapredbook.org
-HJ https://aapnews.org
-HJ https://hospitalpediatrics.org
-HJ https://pedsinreview.org
-HJ https://pediatrics.org
-HJ https://aapjournals.org
-HJ https://aappublications.org
-HJ https://pediatriccareonline.org
-HJ https://aap.org
-HJ https://aapebooks.org
-HJ https://aappublications.org
-HJ https://pediatrics.aappublications.org
-DJ publications.aap.org
-DJ coding.aap.org
-DJ aapgrandrounds.org
-DJ neoreviews.org
-DJ aappolicy.org
-DJ aapredbook.org
-DJ aapnews.org
-DJ hospitalpediatrics.org
-DJ pedsinreview.org
-DJ pediatrics.org
-DJ aapjournals.org
-DJ aappublications.org
-DJ pediatriccareonline.org
-DJ aapebooks.org
-DJ aap.org
-Neverproxy aap2.silverchair-cdn.com
-
-# American Chemical Society moved to common stanza
+# American Chemical Society moved to common stanza: american-chemical-society.txt
 
 # Updated per alright 2026-01-09
 Title American Economic Association (updated 20200110)
@@ -120,47 +27,13 @@ HJ pubs.aeaweb.org
 HJ www.aeaweb.org
 DJ aeaweb.org
 
-T American Family Physician
-U http://www.aafp.org/online/en/home/publications/journals/afp.html
-H www.aafp.org
-
-T American Journal of Botany
-U Http://www.amjbot.org
-D www.amjbot.org
-
-T American journal of physics  
-U http://link.aip.org/link/?AJPIAS 
-D aip.org
-
 # American Physiological Society moved to common stanza: american-physiological-society.txt
-
-T American Family Physician
-U http://tt5xg8qf8p.search.serialssolutions.com/?V=1.0&L=TT5XG8QF8P&S=JCs&C=AMERFAMPHY1&T=marc
-H tt5xg8qf8p.search.serialssolutions.com
-
-T Ammons Scientific Link
-U http://www.amsciepub.com
-D amsciepub.com
 
 T Annals of Mathematics
 U https://annals.math.princeton.edu
 D annals.math.princeton.edu
 
 # Annual Reviews moved to common stanza: annual-reviews.txt
-
-Title Archives of Institutional Memory (AIM)
-URL http://institutionalmemory.iu.edu/aim/handle/10333/3317
-HJ http://hdl.handle.net
-HJ https://hdl.handle.net
-DJ handle.net
-
-T Archives of Internal Medicine
-U http://archinte.jamanetwork.com
-D archinte.jamanetwork.com
-
-T AnthroSource
-U http://www.anthrosource.net
-D anthrosource.net
 
 T APSA Journals
 U http://www.apsanet.org/content_40125.cfm
@@ -170,166 +43,22 @@ T ASM Journals Online
 U http://journals.asm.org
 D journals.asm.org
 
-NeverProxy viewer.artstor.org
-NeverProxy viewer2.artstor.org
-AnonymousUrl +*.jar
-AnonymousUrl +*.gif
-AnonymousUrl +*.class
-AnonymousUrl +*.jpg
-T Artstor
-U http://library.artstor.org
-D artstor.org
-AnonymousUrl -*
-#U http://library.artstor.org
-#U http://www.artstor.org
-#D library.artstor.org
-#D artstor.org
-
-T Blacklight
-U http://blacklight-dev.uits.iu.edu
-D blacklight-dev.uits.iu.edu
+# Artstor moved to common stanza: jstor.txt
 
 Title Bloombury Digital Resources
 URL https://www.manchesterhive.com/
 HJ http://www.manchesterhive.com/
 DJ manchesterhive.com
 
-T Books in Print
-U http://www.booksinprint.com/
-D booksinprint.com
 
-T Breathe (Lausanne, Switzerland)  (1810-6838)    
-U http://www.ers-education.org
-D www.ers-education.org
-
-## The Cambridge Scientific Abstract - many of these
-T Cambridge Scientific Abstract
-U http://www.csa.com/htbin/dbsel.cgi?username=iusb&access=iusb711&cat=default
-D csa.com
-
-T Cambridge Sociology Abstract
-U http://www.csa.com/htbin/dbsel.cgi?username=iusb&access=iusb711&cat=socialsci
-D csa.com
-
-T Cambridge ERIC
-U http://www.csa.com/htbin/dbsel.cgi?username=iusb&access=iusb711&cat=eric
-D csa.com
-
-T Cambridge Conference Paper Index
-U http://www.csa.com/htbin/dbsel.cgi?username=iusb&access=iusb711&cat=cpi
-D csa.com
-
-##More CAS servers
-
-T Cambridge Scientific Abstracts 1
-U http://ca2.csa.com
-
-T Cambridge Scientific Abstracts 2
-u http://ca1.csa.com
-
-T Cambridge Scientific Abstracts 3
-U http://md3.csa.com
-
-T Cambridge University Press
-U http://journals.cambridge.org
-D journals.cambridge.org
-
-T Catalog of Digital Historical Newspapers (NewspaperCat)
-U http://ufdc.ufl.edu/UF00048473
-D ufdc.ufl.edu
-
-T Chadwyck-Healey Collections
-U http://collections.chadwyck.com
-DJ collections.chadwyck.com 
-DJ gateway.proquest.com 
-DJ chadwyck.com
-HJ acta.chadwyck.com
-HJ afi.chadwyck.com
-HJ brecht.chadwyck.com
-HJ klassiker.chadwyck.com
-HJ nsarchive.chadwyck.com
-HJ fii.chadwyck.com
-HJ goethe.chadwyck.com
-HJ iibp.chadwyck.com
-HJ iimpft.chadwyck.com
-HJ iipaft.chadwyck.com
-HJ pld.chadwyck.com
-HJ pao.chadwyck.com
-HJ pio.chadwyck.com
-
-# Updated per ralight 2021-07-26
-T Thomson Reuters Checkpoint Edge
-HTTPHeader -request -process X-Cp-*
-U https://checkpoint.riag.com/login?iploc=inunofsouthbend
-HJ https://checkpoint.riag.com
-DJ checkpoint.riag.com
-AnonymousURL -*
-
-T Thomson Reuters Checkpoint - Student Registration
-U https://cpreg.thomsonreuters.com
-DJ https://cpreg.thomsonreuters.com
-HJ thomsonreuters.com
-
-# Updated per RAL 2021-04-05
-Title Children's Literature Comprehensive Database (CLCD)
-URL https://enterprise.clcd.com
-HJ enterprise.clcd.com
-# Extra host lines included to avoid needhost errors
-HJ http://www.clcd.com
-HJ https://clcd.com
-DJ enterprise.clcd.com
-
-Title Choice Reviews
-URL http://choicereviews.org
-HJ www.cro3.org
-HJ choicereviews.org
-DJ choicereviews.org
-HJ www.choice360.org
-HJ choice360.org
-DJ choice360.org
-HJ cro3.org
-DJ cro3.org
-HJ www.cro2.org
-HJ cro2.org
-DJ cro2.org
-HJ www.choicereviews.org
-HJ choicereviews.org
-DJ choicereviews.org
-
+# Cambridge University Press moved to common stanza: cambridge_core.txt
 # CIC E-publishing Venture moved to common stanza: cic-epublishing-venture.txt
-
-# Updated per ralight 2022-12-20
-Title Cite Them Right Online (updated 20220602)
-URL https://www.citethemrightonline.com/
-HJ www.citethemrightonline.com
-HJ citethemrightonline.com
-HJ https://www.citethemrightonline.com/
-HJ https://citethemrightonline.com/
-DJ citethemrightonline.com
+# Handbook of Chemistry and Physics moved to common stanza: handbook-chemistry-physics.txt
+# DOI system moved to common stanza: doi-system.txt
+# Newsbank/Readex Databases moved to common_stanza: newsbank-readex.txt
 
 
-T Communication Arts
-U http://www.commarts.com
-H www.commarts.com
-
-# Handbook of Chemistry and Physics moved to common stanza
-
-# DOI system moved to common stanza
-
-# Newsbank/Readex Databases moved to common_stanza
-
-Title Drama Online
-URL https://www.dramaonlinelibrary.com/
-HJ www.dramaonlinelibrary.com<http://www.dramaonlinelibrary.com>
-HJ dramaonlinelibrary.com
-HJ https://www.dramaonlinelibrary.com
-HJ https://dramaonlinelibrary.com
-DJ dramaonlinelibrary.com
-
-T Early English Books Online
-U http://wwwlib.umi.com/eebo/
-D umi.com
-
+# Last reviewed by ralight 2026-09-09
 # Updated per ralight 2023-10-06
 # Stanza previously called Ebrary
 Title Ebook Central Proxied
@@ -339,9 +68,6 @@ HJ https://ebookcentral.proquest.com/lib/iusb-ebooks
 DJ ebookcentral.proquest.com
 NeverProxy acs.ebookcentral.proquest.com
 
-T Econ Library
-U http://www.econlibrary.com
-D econlibrary.com
 
 # Updated to https per RAL 2019-12-09
 Title eHRAF World Cultures
@@ -351,17 +77,11 @@ DJ yale.edu
 HJ hraf01.its.yale.edu
 HJ 130.132.52.51
 
-# Fulcrum moved to common stanza
-
+# Fulcrum moved to common stanza: fulcrum.xt
 # LibLynx moved to common stanza: liblynx.txt
-
-# Britannica - Consumer moved to common stanza
-
+# Britannica - Consumer moved to common stanza: britannicaacademic.txt
 # Ent Today moved to common stanza
 
-T Environment and Planning
-U http://www.envplan.com/allvols.cgi?journal=A 
-H www.envplan.com
 
 Title Film Platform
 URL https://filmplatform.net
@@ -370,65 +90,16 @@ Host https://www.filmplatform.net
 Host www.filmplatform.net
 DJ filmplatform.net
 
-# new [per ralight] 28 January 2015 kw
-T Gale Nineteenth Century Collections Online 
-URL http://gdc.galegroup.com/gdc/ncco/atp/AboutThisPublicationPortletWin?mCode=4WHC&action=e&windowstate=normal&mode=view&userGroupName=iuclassb
-Domain ncco.galegroup.com
-
-
-T Gale shakespeare collection
-U http://shakespeare.galegroup.com
-D shakespeare.galegroup.com
-
-T guide to Reference
-U http://www.guidetoreference.org
-D guidetoreference.org
-
-Title Harper's Weekly
-URL https://app.harpweek.com
-HJ http://app.harpweek.com
-HJ harpweek.com
-DJ harpweek.com
-
-
-T Historical New York Times
-U http://www.proquest.com
-D proquest.com
-
-## IEEE Xplore moved to common stanza
+# Gale moved to common stanza: gale.text
+# Harper's Weekly moved to common stanza: alexander-street.txt
+# IEEE Xplore moved to common stanza: ieee-xplore.txt
 
 T Illiad Interlibrary Loan
 u iusb.hosts.atlas-sys.com 
 D iusb.hosts.atlas-sys.com
 
-T InformaWorld
-U http://www.informaworld.com
-D informaworld.com
+# IngentaConnect moved to common stanza: ingentaconnect.txt
 
-# IngentaConnect moved to common stanza
-
-#T Instruction Request Form
-#U http://www.iusb.edu/~libg/BIRequest.html
-#D iusb.edu
-
-#T IUCAT
-U http://www.iucat.iu.edu
-U http://iucat.iu.edu
-#u http://iucat-alt.iu.edu
-#u http://webcat7.iu.edu/authenticate.cgi?status=start&library=SBEND  
-DJ www.iucat.iu.edu
-DJ iucat.iu.edu
-#DJ www.iucat.indiana.edu
-#DJ iucat.indiana.edu
-#DJ iucat-alt.iu.edu
-#DJ webcat7.iu.edu/authenticate.cgi?status=start&library=SBEND 
-#   The above section was put out of function on 1213/2013;replaced with the section below 
-
-Title IUCAT
-URL http://classic.iucat.iu.edu
-URL http://classic.iucat-test.uits.iu.edu:12200
-HostJavascript classic.iucat.iu.edu
-HostJavascript classic.iucat-test.uits.iu.edu:12200
 
 Title INFORMS PubsOnline (updated 20210719)
 URL https://pubsonline.informs.org/
@@ -463,27 +134,9 @@ HJ www3.informs.org
 HJ www.informs.org
 DJ informs.org
 
-T JAMAevidence
-URL http://jamaevidence.mhmedical.com
-HJ https://jamaevidence.mhmedical.com
+# JAMAevidence moved to common stanza: mcgraw_hill_medical.txt
 
-T JCR
-U http://jcr.incites.thomsonreuters.com
-u http://webofknowledge.com/JCR
-D jcr.incites.thomsonreuters.com
-D webofknowledge.com/JCR
-
-# Updated per ralight 2023-03-07
-# Stanza previously called Journal of Nursing Education
-Title Healio (updated 20220323)
-URL https://www.healio.com/
-HJ www.healio.com
-HJ healio.com
-HJ https://healio.com
-HJ https://journals.healio.com
-# Extra host to account for old URL that is used in current 360 as of 2022-03-07
-HJ http://www.journalofnursingeducation.com
-DJ healio.com
+# JCR moved to common stanza: clarivate.txt
 
 Title Journal of Philosophy
 URL http://www.pdcnet.org/
@@ -1355,7 +1008,7 @@ U http://readyreference.data-planet.com
 DJ data-planet.com
 DJ conquestsystems.com
 
-# AIPP Publishing Platform (formerly Scitation) moved to common stanza
+# AIP Publishing Platform (formerly Scitation) moved to common stanza: aip-publishing.txt
 
 Title r2library.com
 URL https://www.r2library.com
