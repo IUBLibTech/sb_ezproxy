@@ -147,56 +147,41 @@ DJ pdcnet.org
 Find var urlNeu=urlAlt.replace(/http:/, "https:");
 Replace var urlNeu=urlAlt.replace(/http:\/\/www.pdcnet.org.*?(\/.*)$/, "https://^swww.pdcnet.org^$1");
 
+# Cancelling with end of 2026, confirm no PCA and remove stanza. ralight 2026-09-18
 T Labor and Employment Relations Association
 U https://lerachapters.org/
-U https://www.leraweb.org/
+HJ https://www.leraweb.org/
 H lera.press.illinois.edu
 HJ https://50.87.169.168
+HJ http://www.leraweb.org 
+DJ lerachapters.org
+DJ leraweb.org
 
 # Learning Express Library 3.0 - PrepStep for Colleges moved to common stanza
 
-T libguides
-U http://libguides.iusb.edu/az.php?a=s&q=scifinder
-H libguides.iusb.edu
+# Updated per ralight 2026-09-18
+# Stanza used to improve IUCAT experience for SciFinder registration page
+T LibGuides - IUSB
+NeverProxy http://libguides.iusb.edu
+NeverProxy https://libguides.iusb.edu
+NeverProxy libguides.iusb.edu
 
 # Loex Quarterly moved to common stanza: loex-quarterly.txt
 
-T Kanopy
-U http://iusb.kanopy.com
+# Updated per ralight 2026-09-18
+Title Kanopy Streaming (updated 20180418)
+URL http://iusb.kanopystreaming.com
+H https://iusb.kanopystreaming.com
+D kanopystreaming.com
+
+# Updated per ralight 2026-09-18
+Title Kanopy (updated 20180418)
+URL http://iusb.kanopy.com
 H https://iusb.kanopy.com
-D kanopystreaming.com
-U http://iusb.kanopystreaming.com
-H https://iusb.kanopystreaming.com
 D kanopy.com
-
-# New Stanza [per Feng Shang] 16 February 2015 kw
-T Kanopy Videostreaming
-U http://iusb.kanopystreaming.com
-H https://iusb.kanopystreaming.com
-H kanopystreaming.com
-H www.kanopystreaming.com
-D kanopystreaming.com
-
-# Updated per RAL 2021-03-10
-T LERA journals
-U https://www.leraweb.org/publications
-H http://www.leraweb.org
-H www.leraweb.org
-D leraweb.org
-
-T Litfinder
-U http://www.litfinder.com
-D litfinder.com
-
-Title London Low Life
-URL http://www.londonlowlife.amdigital.co.uk
-Host www.londonlowlife.amdigital.co.uk
 
 # MathSciNet moved to common_stanzas
 
-T Moneyonline.com
-U http://www.maneyonline.com/
-D www.maneyonline.com/
 
 AnonymousURL +*/NML_*
 AnonymousURL +*.wm
@@ -227,51 +212,86 @@ NeverProxy videostream2.naxosmusiclibrary.com
 ## Naxos Music Library Aux Audio CDN Location
 NeverProxy cp82361.edgefcs.net
 
-#S&P Global NetAdvantage:
-#Option CookiePassThrough
-#T *S&P Global NetAdvantage*
-#URL http://na.capitaliq.com/ip/INUSB
-#HJ https://www.capitaliq.com
-#HJ http://www.capitaliq.com
-#Host https://na.capitaliq.com
-#Host https://capitaliq.com
-#D na.capitaliq.com
-#D capitaliq.com
-#DJ na.capitaliq.com
-#DJ capitaliq.com
 
-# Updated per ralight 2023-12-11
+# Updated per ralight 2026-09-18
+Option CookiePassThrough
+AnonymousURL -Options +https://qt-iag-ciqplus.capitaliq.com/*
 AnonymousURL -Options +https://charting.capitaliq.com/*
 AnonymousURL -Options +https://iag-ciqplus.capitaliq.com/*
-AnonymousURL -Options +https://qt-iag-ciqplus.capitaliq.com/*
-Option CookiePassThrough
-Title S&P Global NetAdvantage 
+AnonymousURL +https://logging.capitaliq.com/*
+Title S&P Global (added 20250331)
+HTTPHeader -request -process X-CSRF-Token
+HTTPHeader -request -process com-gmi-*
+HTTPHeader -request -process SNL-*
+HTTPHeader -request -process -unrewrite Authorization
+HTTPHeader -response -edit Access-Control-Allow-Origin "https://www.snl.com"
+MimeFilter text/event-stream .* javascript
 URL http://na.capitaliq.com/ip/INUSB
+HJ https://www.capitaliq.com
+HJ http://www.capitaliq.com
+HJ https://capitaliq.com
+HJ http://capitaliq.com
+HJ https://capitaliq.spglobal.com
+HJ https://www.snl.com
+HJ www.snl.com
+HJ app.snl.com
+HJ app1.snl.com
+HJ app2.snl.com
+HJ https://capitaliq.spglobal.com
+HJ capitaliq.spglobal.com
+HJ https://www.capitaliq.spglobal.com
+HJ http://www.capitaliq.spglobal.com
+HJ www.capitaliq.spglobal.com
+HJ https://www.capitaliq.spglobal.com
+HJ https://www.capitaliqpro.com
+HJ www.capitaliqpro.com
+HJ platform.mi.spglobal.com
+HJ https://platform.mi.spglobal.com
+HJ platform.marketintelligence.spglobal.com
+HJ https://platform.marketintelligence.spglobal.com
+HJ platform.spgi.spglobal.com
+HJ https://platform.spgi.spglobal.com
+HJ http://na.capitaliq.com/
 HJ https://www.capitaliq.com
 HJ http://www.capitaliq.com
 HJ https://na.capitaliq.com
 HJ https://capitaliq.com
-DJ na.capitaliq.com
-DJ capitaliq.com
-DJ na.capitaliq.com
+HJ sso.mhfi.com
+HJ login.spglobal.com
+HJ sso.spglobal.com
+HJ na.capitaliq.com
 DJ capitaliq.com
 DJ ciqimg.com
 DJ mhfi.com
-DJ login.spglobal.com
 DJ spglobal.com
+DJ snl.com
 Find location.hostname
 Replace location.host
+Find && currentDomain != "localhost"
+Replace && 0
+Find https://www.snl.com/SNL.Services.Export.Service
+Replace https://^swww.snl.com^/SNL.Services.Export.Service
+Find www.capitaliq.spglobal.com
+Replace ^swww.capitaliq.spglobal.com^
+Find xmlns=\"http://
+Replace xmlns=\"http://^A
+Find param="http://
+Replace param="http://^A
+Find xmlns=\"https://
+Replace xmlns=\"https://^A
+Find param="https://
+Replace param="https://^A
+Find platform.marketintelligence.spglobal.com
+Replace ^splatform.marketintelligence.spglobal.com^
+Find platform.mi.spglobal.com
+Replace ^splatform.mi.spglobal.com^
 AnonymousURL -*
 Option Cookie
+NeverProxy app.snl.com
+NeverProxy cdn.spgi.spglobal.com
+NeverProxy walkme.com
 Neverproxy secure.signin.spglobal.com
 
-Title netLibrary
-URL http://www.netlibrary.com
-Domain netlibrary.com
-
-T NetFirst Internet Directory
-U http://data.inspire.net/WebZ/Authorize?sessionid=0&style=extra&next=startscreen
-D inspire.net
 
 # New [per xichen] 18 December 2014 kw
 T Open Access Digital library  
@@ -292,82 +312,21 @@ H www.artnewsonline.com
 
 # Modern Language Association moved to common stanza per ralight 2025-08-13
 
-T Physical Reveiw Online Archive
-U http://prola.aps.org
-D prola.aps.org
-
 # Portico moved to common stanza: portico.txt
-
-# Stanza added for trial access 2020-11-30
-Title PrepSTEP for Colleges and Universities Edition
-URL https://www.learningexpresshub.com?Authtoken=3caa6f20-f4fa-4570-b074-c33be7dd17d1
-HJ www.learningexpresshub.com
-DJ learningexpresshub.com
 
 # Project Muse moved to common stanza
 
-# Removed [per ralight] 29 January 2015 kw
-# T Project Gutenberg Online Catalog link (Great Expextations ebooks)
-# U http://archive.org
-# D archive.org
-
-T Proquest Statistical Abstract of the U.S.
-U https://statabs.proquest.com/sa
-HJ http://statabs.proquest.com
-DJ statabs.proquest.com
-DJ proquest.com
-
-T Proquest Statistical Insight
-U http://www.lnstatistical.com
-D www.lnstatistical.com
-
+# Proquest Statistical Abstract of the U.S. moved to common stanza: proquest.txt
+# Proquest Statistical Insight moved to common stanza: proquest.txt
 # PsychiatryOnline (American Journal of Psychiatry) moved to common stanza: psychiatryonline.txt
 # PubMed moved to common stanza
-
-D odyssi.com
-
-#T IU OneSearch
-#U 129.79.5.119
-#D 129.79.5.119
-
-# T Ref Works
-# U http://www.refworks.com/reworks/
-# D refworks.com
-
-Option DomainCookieOnly
-Title RefWorks
-URL http://www.refworks.com/Refworks/
-DJ refworks.com
-Option Cookie
-
-T Reuters News
-u http://www.globalbusinessinsights.com
-D globalbusinessinsights.com
-D reutersbusinessinsight.com
-
-T Rheumatologist
-U http://www.the-rheumatologist.org/view/index.html
-H www.the-rheumatologist.org
-
 
 T Routledge Encyclopedia of Philosophy
 U http://www.rep.routledge.com/
 HJ www.rep.routledge.com<http://www.rep.routledge.com/>
 DJ rep.routledge.com
 
-T Sanborn Maps
-u http://Sanborn.umi.com
-d Sanborn.umi.com
-
 # Scientific American moved to common stanza: scientific-american.txt
-
-Title -hide Elsevier Identity
-URL https://id.elsevier.com
-HJ https://id.elsevier.com
-HJ id.elsevier.com
-DJ id.elsevier.com
-Find redirect_uri=https://
-Replace redirect_uri=https://^A
 
 Title MRI-Simmons Insights
 URL https://insights.mrisimmons.com/university/iusb
@@ -376,6 +335,7 @@ H insights.mrisimmons.com
 DJ insights.mrisimmons.com
 D insights.mrisimmons.com
 
+# Last reviewed by ralight 2026-09-18
 Title Symptom Media (updated 20240111)
 URL https://learn.symptommedia.com
 MimeFilter application/x-www-form-urlencoded .* javascript
@@ -384,65 +344,20 @@ HJ https://symptommedia.com
 HJ http://symptommedia.com
 DJ symptommedia.com
 
-#T SingleSearch Test
-#u http://libfs.iu.edu:8000/muse/
-#D libfs.iu.edu:8000/muse/
-
-T Reference Universe
-U http://reference.paratext.com
-U https://documents.paratext.com
-D refuniv.odyssi.com
-
-T Serials Solutions
-U http://tt5xg8qf8p.search.serialssolutions.com
-U http://tt5xg8qf8p.cs.serialssolutions.com
-DJ serialssolutions.com
-
-#T Statistical DataSet
-#U http://statisticaldatasets.data-planet.com/dataplanet
-#D statisticaldatasets.data-planet.com/dataplanet
-#HJ http://readyreference.data-planet.com
-
-T Statistical DataSet
-U http://data-planet.libguides.com/marketingresourcesforlibraries/AccessInfo
-
-#Elsevier Scopus
-ProxyHostnameEdit www.scopus.com$ www-scopus-com
-MimeFilter text/uri-list .* javascript
-AnonymousURL +http://syndic8.scopus.com/*
-Title SciVerse Scopus
-MimeFilter application/json .* javascript
-URL https://www.scopus.com/home.url
-HJ https://www.scopus.com
-HJ http://www.scopus.com
-HJ www.scopus.com
-DJ scopus.com
-Find %22%3A%22http%3A%2F%2Fsciverse-shindig.elsevier.com%2F
-Replace %22%3A%22http%3A%2F%2F^psciverse-shindig.elsevier.com^%2F
-Find gsUrl%22%3A%22https%3A%2F%2Fwww.scopus.com%2F
-Replace gsUrl%22%3A%22https%3A%2F%2F^pwww.scopus.com^%2F
-NeverProxy www.elsevier.com
-AnonymousURL -*
+# Updated per ralight 2026
+T Ex Libris 360
+NeverProxy http://tt5xg8qf8p.search.serialssolutions.com
+NeverProxy http://tt5xg8qf8p.cs.serialssolutions.com
+NeverProxy https://tt5xg8qf8p.search.serialssolutions.com
+NeverProxy tt5xg8qf8p.search.serialssolutions.com
 
 # Swank Digital Campus moved to common stanza: swank-digital-campus.txt
 # Ulrichsweb moved to common stanza: ulrichsweb.txt
 # University of Chicago Press Journals moved to common stanza: university-chicago-press-journals.txt
 # Value Line moved to common stanza
 
-T Webster Dictionary
-U http://www.mwu.eb.com
-D www.mwu.eb.com
-
 # OCLC FirstSearch moved to common_stanza
 
-T Wright Am Fiction
-U http://www.letrs.indiana.edu
-D www.letrs.indiana.edu
-
-
-T NetLibrary
-U http://www.netLibrary.com
-D www.netLibrary.com
 
 
 ##Online Journal sites
