@@ -182,13 +182,7 @@ D kanopy.com
 
 # MathSciNet moved to common_stanzas
 
-
-AnonymousURL +*/NML_*
-AnonymousURL +*.wm
-AnonymousURL +*.wma
-AnonymousURL +*/stream_play.asp?*
-AnonymousURL +*/stream_play_mac.asp?*
-
+# Last reviewed by ralight 2026-10-02
 # Updated per ralight 2025-06-04
 Title Naxos Music Library (updated 20250530)
 URL https://iusb.naxosmusiclibrary.com
@@ -292,39 +286,19 @@ NeverProxy cdn.spgi.spglobal.com
 NeverProxy walkme.com
 Neverproxy secure.signin.spglobal.com
 
-
-# New [per xichen] 18 December 2014 kw
-T Open Access Digital library  
-U http://www.artnewsonline.com
-H www.artnewsonline.com
-
 # Oxford Academic moved to common stanza
-
 # Oxford Art Online moved to common stanza
-
 # Oxford Music Online moved to common stanza
-
 # Oxford Reference moved to common stanza
-
 # Oxford Research Encyclopedia moved to common stanza
-
 # Oxford African American Studies Center moved to common stanza
-
 # Modern Language Association moved to common stanza per ralight 2025-08-13
-
 # Portico moved to common stanza: portico.txt
-
 # Project Muse moved to common stanza
-
 # Proquest Statistical Abstract of the U.S. moved to common stanza: proquest.txt
 # Proquest Statistical Insight moved to common stanza: proquest.txt
 # PsychiatryOnline (American Journal of Psychiatry) moved to common stanza: psychiatryonline.txt
 # PubMed moved to common stanza
-
-T Routledge Encyclopedia of Philosophy
-U http://www.rep.routledge.com/
-HJ www.rep.routledge.com<http://www.rep.routledge.com/>
-DJ rep.routledge.com
 
 # Scientific American moved to common stanza: scientific-american.txt
 
@@ -344,7 +318,7 @@ HJ https://symptommedia.com
 HJ http://symptommedia.com
 DJ symptommedia.com
 
-# Updated per ralight 2026
+# Updated per ralight 2026-09-18
 T Ex Libris 360
 NeverProxy http://tt5xg8qf8p.search.serialssolutions.com
 NeverProxy http://tt5xg8qf8p.cs.serialssolutions.com
@@ -358,56 +332,7 @@ NeverProxy tt5xg8qf8p.search.serialssolutions.com
 
 # OCLC FirstSearch moved to common_stanza
 
-
-
-##Online Journal sites
-
-T AERA SIG Communication journals
-U http://smi.curtin.edu.au
-U http://education.curtin.edu.au
-U http://iej.cjb.net
-D smi.curtin.edu.au
-D education.curtin.edu.au
-D iej.cjb.net
-
-
-T cell journals
-U http://www.cell.com
-U http://www.developmentalcell.com
-D www.cell.com
-D www.developmentalcell.com
-
-# Updated per ralight 2025-09-17
-HTTPMethod PUT
-HTTPMethod DELETE
-ProxyHostnameEdit www.clinicalkey.com$ www-clinicalkey-com
-AnonymousURL +https://eolsapi.elsevier.com/api/*
-AnonymousURL +https://www.clinicalkey.com/ui-origin/*
-Title ClinicalKey (updated 20250915)
-HTTPHeader -request -process CkApp-Request-Product
-HTTPHeader -request -process CK-Path
-HTTPHeader -request -process X-CkApp-Request-Locale
-HTTPHeader -request -process X-Ckm-Product
-HTTPHeader -request -process X-Ck-Request-Id
-MimeFilter application/json .* javascript
-URL https://www.clinicalkey.com
-HJ www.clinicalkey.com
-HJ www.clinicalkey.es
-HJ www.clinicalkey.com.au
-HJ www2.clinicalkey.com
-HJ https://www2.clinicalkey.com
-HJ https://www.clinicalkey.es
-HJ https://www.clinicalkey.com.au
-DJ clinicalkey.es
-DJ clinicalkey.com
-DJ clinicalkey.com.au
-HJ t.clinicalsolutions.elsevier.com
-DJ elsevier.com
-AnonymousURL -*
-NeverProxy cdn.clinicalkey.com
-NeverProxy jigsaw.elsevier.com
-NeverProxy clinicalkeymeded.elsevier.com
-
+# Last reviewed by ralight 2026-10-02
 # Updated per ralight 2025-08-13
 # New platform for Bates Visual Guide
 Title Clinicalcontext (updated 20250807)
@@ -420,238 +345,21 @@ HJ https://oneid.wolterskluwer.com
 DJ clinicalcontext.lww.com
 DJ myprofile.wolterskluwer.com
 
-T  Current History
-U  http://www.currenthistory.com
-D  www.currenthistory.com
-
-T www.agiweb.org
-U http://www.agiweb.org
-D www.agiweb.org
-
-
-T France Journals Online
-U http://www.persee.fr
-D www.persee.fr
 
 T Genetics Journal
 U http://www.genetics.org
 D www.genetics.org
 
-T Haworth Press Journals
-u http://www.haworthpress.com
-U http://www.haworthpressinc.com
-D www.haworthpressinc.com
-D www.haworthpress.com
-
-T Japanese journal archives
-u http://www.journalarchive.jst.go.jp
-D www.journalarchive.jst.go.jp
-
 # Liebert moved to common_stanza
-
-
-T realyc
-u http://redalyc.uaemex.mx
-D redalyc.uaemex.mx
 
 # R2 Digital Library moved to common stanza: r2-digital-library.txt
 
-T Sloan journals online
-U http://www.sloan-c.org
-D www.sloan-c.org
-
-T Sloan Review
-URL http://sloanreview.mit.edu/issue
-Host sloanreview.mit.edu
-
 # Taylor & Francis moved to common stanza: taylor-francis-online.txt
 
-#Single journal titles
-
-# Updated per ralight 2022-10-24
-# Stanza formerly called Development
-Title The Company of Biologists (updated 20221024)
-URL https://www.biologists.com/
-HJ https://journals.biologists.com
-HJ bio.biologists.org
-HJ https://bio.biologists.org
-HJ dev.biologists.org
-HJ https://dev.biologists.org
-HJ dmm.biologists.org
-HJ https://dmm.biologists.org
-HJ jcs.biologists.org
-HJ https://jcs.biologists.org
-HJ jeb.biologists.org
-HJ https://jeb.biologists.org
-DJ biologists.com
-
-T Feminist Teacher
-U http://ft.press.uiuc.edu
-D ft.press.uiuc.edu
-
-T Forum for Promoting.. (online journal)
-U http://www.wwwords.co.uk
-D www.wwwords.co.uk
-
-T ISR journal
-U http://isr.journal.informs.org
-D isr.journal.informs.org
-
-T Journal of Adolescent Health
-U http://vls.icm.edu.pl
-D vls.icm.edu.pl
-
-T Journal of clicnical Ethics
-U http://www.clinicalethics.com/
-D www.clinicalethics.com/
-
-T Journal of Dental Education
-U http://www.jdentaled.org 
-D www.jdentaled.org
-
-T Journal of Family & Society
-U http://www.familiesinsociety.org
-D familiesinsociety.org
-
-T Families in Society
-U http://familiesinsocietyjournal.org/loi/fcss
-H familiesinsocietyjournal.org
  
 T The Journal of Nutrition
 U jn.nutrition.org
 
-T Journal of Philosophy
-U http://www.journalofphilosophy.org
-D www.journalofphilosophy.org
-
-T journal online
-U http://jada.ada.org/
-D jada.ada.org
-
-T Journal of Applied Business Research
-U http://journals.cluteonline.com
-D journals.cluteonline.com
-
-T Journal of Periodontology
-U http://www.joponline.org
-D www.joponline.org
-
-T Journal of public budgeting, accounting & financial management
-T Journal of public budgeting, accounting and financial management
-U http://www.pracademics.com
-D www.pracademics.com
-
-T online journal-Berkely
-U http://caliber.ucpress.net
-D caliber.ucpress.net
-
-T Online journal-Guilford
-U http://www.atypon-link.com
-D www.atypon-link.com
-
-# Updated per ralight 2023-12-06
-AnonymousURL +https://kit.fontawesome.com/*.js
-AnonymousURL +https://kit.fontawesome.com/*.css
-AnonymousURL +https://ka-p.fontawesome.com/releases/*.css*
-AnonymousURL +https://ka-p.fontawesome.com/releases/*.woff*
-AnonymousURL +https://ka-p.fontawesome.com/releases/*.tff*
-Title Karger Publishers (updated 20231129)
-URL https://www.karger.com
-HJ http://www.karger.com
-HJ content.karger.ch
-HJ content.karger.com
-HJ https://content.karger.com
-HJ https://karger.com
-HJ https://search.karger.com
-HJ https://www.karger.com
-HJ karger.ch
-HJ karger.com
-HJ mag.digitalpc.co.uk
-HJ online.karger.com
-HJ search.karger.com
-HJ www.karger.ch
-HJ www.karger.com
-HJ https://kit.fontawesome.com
-HJ kit.fontawesome.com
-HJ ka-p.fontawesome.com
-HJ https://ka-p.fontawesome.com
-DJ mag.digitalpc.co.uk
-DJ karger.com
-DJ karger.ch
-AnonymousURL -*
-
-T Online Journal Current-biology
-U http://www.current-biology.com
-D current-biology.com
-
-U http://archderm.ama-assn.org
-D archderm.ama-assn.org
-
-u http://sunzi1.lib.hku.hk
-D sunzi1.lib.hku.hk
-
-T MOA Conell
-U http://digital.library.cornell.edu
-D digital.library.cornell.edu
-
-T American Medical Association
-U http://archpsyc.ama-assn.org
-D archpsyc.ama-assn.org
-
-T American Medical Association Journals
-U http://archderm.jamanetwork.com
-U http://archopht.jamanetwork.com
-D archderm.jamanetwork.com
-D archopht.jamanetwork.com
-
-
-T AustLit Journals
-U http://www.nzlii.org
-D www.nzlii.org
-
-T Journal
-U http://archopht.ama-assn.org
-D archopht.ama-assn.org
-
-T AMA Journals
-U http://archpedi.ama-assn.org
-D archpedi.ama-assn.org
-
-T Archives of pediatrics & adolescent medicine (1072-4710)
-U http://archpedi.jamanetwork.com 
-H archpedi.jamanetwork.com
-
-T chla.library.cornell.edu
-U http://chla.library.cornell.edu
-D chla.library.cornell.edu
-
-T Sora free database
-U http://elibrary.unm.edu
-D elibrary.unm.edu
-
-T AAIDD Online Journals 
-U http://www.aaiddjournals.org 
-D www.aaiddjournals.org 
-
-T www.njcu.edu
-U http://www.njcu.edu
-D www.njcu.edu
-
-T Elsevier Link
-U http://linkinghub.elsevier.com
-D linkinghub.elsevier.com
-
-T Video
-T aspresolver.com
-U http://www.aspresolver.com
-D aspresolver.com
-
-T Southern Poverty Law Center (SPLC) Publications 
-U http://www.splcenter.org
-D www.splcenter.org
-
-T Geronotlogy
-U http://geronj.oxfordjournals.org
 
 # Updated per ralight 2022-03-31
 Title University of Illinois Press (updated 20200515)
@@ -671,18 +379,6 @@ HJ www.press.illinois.edu
 DJ illinois.edu
 DJ uillinois.edu
 
-T Anales Cervantinos
-U http://analescervantinos.revistas.csic.es
-D analescervantinos.revistas.csic.es
-
-T American Medical Association Journals
-U http://archpsyc.jamanetwork.com
-D archpsyc.jamanetwork.com
-
-T www.equinoxpub.com
-U http://www.equinoxpub.com
-D www.equinoxpub.com
-
 Title Project Euclid
 URL https://projecteuclid.org/
 HJ projecteuclid.org
@@ -691,27 +387,6 @@ HJ http://projecteuclid.org
 HJ https://www.projecteuclid.org
 HJ http://www.projecteuclid.org
 DJ projecteuclid.org
-
-T single journals
-U http://chemeducator.org
-D chemeducator.org
-
-T single journals
-U http://www.extenza-eps.com
-D www.extenza-eps.com
-
-T single journals
-u http://tempsreel.nouvelobs.com
-d tempsreel.nouvelobs.com
-
-T single journals
-u http://jeb.biologists.org
-d jeb.biologists.org
-
-T single journals
-u http://mcfarland.metapress.com
-d mcfarland.metapress.com
-
 
 
 # Updated per RAL 2020-08-18
@@ -730,51 +405,8 @@ T Single Journal
 u http://revista-iberoamericana.pitt.edu
 D revista-iberoamericana.pitt.edu
 
-T single journal
-U http://www.rethinkingschools.org
-D www.rethinkingschools.org
-
-T Single journal 
-u http://www.bridgew.edu
-D www.bridgew.edu
-
-T single journal
-u http://seab.envmed.rochester.edu.strauss.uc3m.es:8080
-d seab.envmed.rochester.edu.strauss.uc3m.es:8080
-
-T single journal (Nursing Research and Practice)
-u http://www.hindawi.com
-D www.hindawi.com
-
-
-
-# end of online Journals - 2012
-
-
-
-#Online books
-
-T Austrialia University ebooks
-U http://epress.anu.edu.au
-D epress.anu.edu.au
-
-T Missouri Botanic Garden Collections
-u https://www.biodiversitylibrary.org
-D www.biodiversitylibrary.org
-
 # Salem Press moved to common stanza: salem-press.txt
 
-Title The Company of Biologists
-URL http://www.biologists.org/
-HJ www.biologists.org
-HJ dev.biologists.org
-HJ jcs.biologists.org
-HJ jeb.biologists.org
-HJ dmm.biologists.org
-HJ jcs.biologists.org
-HJ www.biologists.com
-HJ biologists.org
-DJ biologists.org
 
 # Updated per ralight 2026-02-18
 # BE SURE TO CUSTOMIZE SPU WHEN UPDATAING STANZA
@@ -841,24 +473,6 @@ Option Cookie
 Title Ethnologue
 URL https://www.ethnologue.com
 
-#Trial
-
-
-
-Group Default
-
-# Nothing Here
-
-# Warning DO NOT place any licensed databases bellow this line!!
-# Anything below this line will not be prompted for authentication!
-
-#AutoLoginIP 0.0.0.0-255.255.255.255
-
-#Title 	Arts and Education Camera
-#URL	http://10.225.33.32
-#DJ 	10.225.33.32
-
-
 Title American Philosophical Quarterly
 URL http://apq.press.illinois.edu
 
@@ -874,35 +488,8 @@ Replace "/assets/iusb.tugg.com"
 NeverProxy d3llxikfpf4pa2.tugg.com
 AnonymousURL -*
 
-Title Frontier Life
-URL http://www.frontierlife.amdigital.co.uk
-
-Title Foreign Office Files for the Middle East
-URL http://www.archivesdirect.amdigital.co.ukFO_MiddleEast
-
-Title Eighteenth Century Drama
-URL http://www.eighteenthcenturydrama.amdigital.co.uk
-
-Title World's Fairs
-URL http://www.worldsfairs.amdigital.co.uk
-
-Title Shakespeare in Performance
-URL http://www.shakespeareinperformance.amdigital.co.uk
-
-Title History of Mass Tourism
-URL http://www.masstourism.amdigital.co.uk
-
-Title Church Missionary Society Periodicals Module II
-URL http://www.churchmissionarysociety.amdigital.co.uk
-
-Title Colonial America Module II
-URL http://www.colonialamerica.amdigital.co.uk
 
 # University of California Press moved to common stanza: university-california-press.txt
-
-Title Oxford Journals (new platform Fall 2016)
-URL https://academic.oup.com
-DJ oup.com
 
 Title Harper's Magazine
 URL http://harpers.org/search/
@@ -911,17 +498,6 @@ DJ harpers.org
 HJ www.harpers.org
 DJ www.harpers.org
 
-T ACI Scholarly Blog Index
-U  http://iusb.aci.info
-
-# Updated per ralight 2026-01-09
-# HTTPheader localized
-HTTPHeader -request -process X-Requested-With
-HTTPHeader -request -process X-GWT-*
-T Ready Reference
-U http://readyreference.data-planet.com
-DJ data-planet.com
-DJ conquestsystems.com
 
 # AIP Publishing Platform (formerly Scitation) moved to common stanza: aip-publishing.txt
 
@@ -933,15 +509,6 @@ DJ r2library.com
 # TeachingBooks moved to common stanza
 
 # Digital Theatre Plus moved to common stanza: digital-theatre-plus.txt
-
-Title Society for Applied Anthropology
-URL http://sfaajournals.net
-
-
-##Added 7/10/17 PJM ###
-T Bates Visual Guide
-URL http://batesvisualguide.com
-D batesvisualguide.com
 
 # Access NYT moved to common stanza: access-nyt.txt
 
@@ -955,8 +522,6 @@ HJ rep.routledge.com
 HJ www.rep.routledge.com
 DJ routledge.com
 
-T Marc records websites 
-U http://muse.jhu.edu/eba/program/iusb
 
 Option CookiePassThrough
 Title Safari Books
@@ -978,27 +543,6 @@ Find window.location.replace('http://m' + subDomain + '.safaribooksonline.com
 Replace window.location.replace('http://m' + subDomain + '.^psafaribooksonline.com^
 Option Cookie
 
-Title foundation Directory Online
-U https://fconline.foundationcenter.org
-D fconline.foundationcenter.org
-
-# Updated per ralight 2026-03-19
-AnonymousURL +https://cms-films.economist.com/*
-Title The Economist (updated 20210312)
-HTTPHeader -request -process X-Requested-With
-URL https://www.economist.com/
-HJ https://www.economist.com
-HJ www.economist.com
-DJ economist.com
-Find &domain=economist.com&
-Replace &domain=economist.com.^h&
-Find ="economist.com"
-Replace ="economist.com.^h"
-Find http://www.economist.com/
-Replace http://^pwww.economist.com^/
-Find https://www.economist.com/
-Replace https://^swww.economist.com^/
-AnonymousURL -*
 
 # Statista stanza replaced by new directive in config.txt
 
@@ -1010,120 +554,6 @@ HJ ingentaconnect.com
 DJ ingentaconnect.com
 
 #  Wiley Digital Archives moved to common stanza
-
-# Updated per ralight 2021-11-30
-Title University Press Scholarship Online (updated 20211124)
-URL https://www.universitypressscholarship.com/
-HJ britishacademy.universitypressscholarship.com
-HJ cairo.universitypressscholarship.com
-HJ california.universitypressscholarship.com
-HJ chicago.universitypressscholarship.com
-HJ columbia.universitypressscholarship.com
-HJ cornell.universitypressscholarship.com
-HJ edinburgh.universitypressscholarship.com
-HJ florida.universitypressscholarship.com
-HJ fordham.universitypressscholarship.com
-HJ hawaii.universitypressscholarship.com
-HJ hongkong.universitypressscholarship.com
-HJ illinois.universitypressscholarship.com
-HJ kentucky.universitypressscholarship.com
-HJ liverpool.universitypressscholarship.com
-HJ manchester.universitypressscholarship.com
-HJ minnesota.universitypressscholarship.com
-HJ mississippi.universitypressscholarship.com
-HJ mitpress.universitypressscholarship.com
-HJ northcarolina.universitypressscholarship.com
-HJ nyu.universitypressscholarship.com
-HJ oxford.universitypressscholarship.com
-HJ policypress.universitypressscholarship.com
-HJ princeton.universitypressscholarship.com
-HJ stanford.universitypressscholarship.com
-HJ universitypressscholarship.com
-HJ yale.universitypressscholarship.com
-HJ www.britishacademy.universitypressscholarship.com
-HJ www.cairo.universitypressscholarship.com
-HJ www.california.universitypressscholarship.com
-HJ www.chicago.universitypressscholarship.com
-HJ www.columbia.universitypressscholarship.com
-HJ www.cornell.universitypressscholarship.com
-HJ www.edinburgh.universitypressscholarship.com
-HJ www.florida.universitypressscholarship.com
-HJ www.fordham.universitypressscholarship.com
-HJ www.hawaii.universitypressscholarship.com
-HJ www.hongkong.universitypressscholarship.com
-HJ www.illinois.universitypressscholarship.com
-HJ www.kentucky.universitypressscholarship.com
-HJ www.liverpool.universitypressscholarship.com
-HJ www.manchester.universitypressscholarship.com
-HJ www.minnesota.universitypressscholarship.com
-HJ www.mississippi.universitypressscholarship.com
-HJ www.mitpress.universitypressscholarship.com
-HJ www.northcarolina.universitypressscholarship.com
-HJ www.nyu.universitypressscholarship.com
-HJ www.oxford.universitypressscholarship.com
-HJ www.policypress.universitypressscholarship.com
-HJ www.princeton.universitypressscholarship.com
-HJ www.stanford.universitypressscholarship.com
-HJ www.universitypressscholarship.com
-HJ www.yale.universitypressscholarship.com
-HJ https://britishacademy.universitypressscholarship.com
-HJ https://cairo.universitypressscholarship.com
-HJ https://california.universitypressscholarship.com
-HJ https://chicago.universitypressscholarship.com
-HJ https://columbia.universitypressscholarship.com
-HJ https://cornell.universitypressscholarship.com
-HJ https://edinburgh.universitypressscholarship.com
-HJ https://florida.universitypressscholarship.com
-HJ https://fordham.universitypressscholarship.com
-HJ https://hawaii.universitypressscholarship.com
-HJ https://hongkong.universitypressscholarship.com
-HJ https://illinois.universitypressscholarship.com
-HJ https://kentucky.universitypressscholarship.com
-HJ https://liverpool.universitypressscholarship.com
-HJ https://manchester.universitypressscholarship.com
-HJ https://minnesota.universitypressscholarship.com
-HJ https://mississippi.universitypressscholarship.com
-HJ https://mitpress.universitypressscholarship.com
-HJ https://northcarolina.universitypressscholarship.com
-HJ https://nyu.universitypressscholarship.com
-HJ https://oxford.universitypressscholarship.com
-HJ https://policypress.universitypressscholarship.com
-HJ https://princeton.universitypressscholarship.com
-HJ https://stanford.universitypressscholarship.com
-HJ https://universitypressscholarship.com
-HJ https://yale.universitypressscholarship.com
-HJ https://www.britishacademy.universitypressscholarship.com
-HJ https://www.cairo.universitypressscholarship.com
-HJ https://www.california.universitypressscholarship.com
-HJ https://www.chicago.universitypressscholarship.com
-HJ https://www.columbia.universitypressscholarship.com
-HJ https://www.cornell.universitypressscholarship.com
-HJ https://www.edinburgh.universitypressscholarship.com
-HJ https://www.florida.universitypressscholarship.com
-HJ https://www.fordham.universitypressscholarship.com
-HJ https://www.hawaii.universitypressscholarship.com
-HJ https://www.hongkong.universitypressscholarship.com
-HJ https://www.illinois.universitypressscholarship.com
-HJ https://www.kentucky.universitypressscholarship.com
-HJ https://www.liverpool.universitypressscholarship.com
-HJ https://www.manchester.universitypressscholarship.com
-HJ https://www.minnesota.universitypressscholarship.com
-HJ https://www.mississippi.universitypressscholarship.com
-HJ https://www.mitpress.universitypressscholarship.com
-HJ https://www.northcarolina.universitypressscholarship.com
-HJ https://www.nyu.universitypressscholarship.com
-HJ https://www.oxford.universitypressscholarship.com
-HJ https://www.policypress.universitypressscholarship.com
-HJ https://www.princeton.universitypressscholarship.com
-HJ https://www.stanford.universitypressscholarship.com
-HJ https://www.universitypressscholarship.com
-HJ https://www.yale.universitypressscholarship.com
-HJ https://oxfordscholarship.com
-HJ https://www.oxfordscholarship.com
-HJ oxfordscholarship.com
-HJ www.oxfordscholarship.com
-DJ oxfordscholarship.com
-DJ universitypressscholarship.com
 
 # Psychotherapy.net moved to common stanza
 
