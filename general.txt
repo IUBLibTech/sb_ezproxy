@@ -3,60 +3,39 @@
 # Access Medicine moved to common stanza: mcgraw_hill_medical.txt
 # Access Surgery moved to common stanza: mcgraw_hill_medical.txt
 # ACM Digital Library moved to common stanza: acmdigital.txt
-# American Psychological Association (APA) [includes Academic Writer] moved to common stanza: apa_psycnet.txt
-
-# Updated per ralight 2022-08-23
-Title Allen Press
-URL https://meridian.allenpress.com
-HJ meridian.allenpress.com
-HJ http://aamr.allenpress.com
-HJ aamr.allenpress.com
-HJ allenpress.com
-DJ allenpress.com
-
 # American Chemical Society moved to common stanza: american-chemical-society.txt
-
-# Updated per alright 2026-01-09
-Title American Economic Association (updated 20200110)
-HTTPHeader -request -process X-CSRF-Token
-HTTPHeader -request -process X-Key
-HTTPHeader -request -process X-Requested-With
-URL https://www.aeaweb.org/
-HJ aeaweb.org
-HJ pubs.aeaweb.org
-HJ www.aeaweb.org
-DJ aeaweb.org
-
+# American Economic Association moved to common stanza: american-economic-association.txt
+# American Psychological Association (APA) [includes Academic Writer] moved to common stanza: apa_psycnet.txt
 # American Physiological Society moved to common stanza: american-physiological-society.txt
+# American Society for Microbiology moved to common stanza: asm-journals.txt
 
-T Annals of Mathematics
-U https://annals.math.princeton.edu
-D annals.math.princeton.edu
+# Updated per ralight 2026-10-16
+Title Annals of Mathematics
+URL https://annals.math.princeton.edu/
+HJ http://annals.math.princeton.edu
+HJ annals.math.princeton.edu
+DJ princeton.edu
 
 # Annual Reviews moved to common stanza: annual-reviews.txt
-
-T APSA Journals
-U http://www.apsanet.org/content_40125.cfm
-H www.apsanet.org
-
-T ASM Journals Online
-U http://journals.asm.org
-D journals.asm.org
-
 # Artstor moved to common stanza: jstor.txt
-
-Title Bloombury Digital Resources
-URL https://www.manchesterhive.com/
-HJ http://www.manchesterhive.com/
-DJ manchesterhive.com
-
-
+# Britannica - Consumer moved to common stanza: britannicaacademic.txt
 # Cambridge University Press moved to common stanza: cambridge_core.txt
 # CIC E-publishing Venture moved to common stanza: cic-epublishing-venture.txt
-# Handbook of Chemistry and Physics moved to common stanza: handbook-chemistry-physics.txt
-# DOI system moved to common stanza: doi-system.txt
-# Newsbank/Readex Databases moved to common_stanza: newsbank-readex.txt
 
+# Last reviewed by ralight 2026-10-02
+# Updated per ralight 2025-08-13
+# New platform for Bates Visual Guide
+Title Clinicalcontext (updated 20250807)
+HTTPHeader -request -process X-Lcc-Organization-Id
+HTTPHeader -request -process X-Lcc-Site-Id
+URL https://clinicalcontext.lww.com
+HJ https://clinicalcontext.lww.com
+HJ https://login.wolterskluwer.com
+HJ https://oneid.wolterskluwer.com
+DJ clinicalcontext.lww.com
+DJ myprofile.wolterskluwer.com
+
+# DOI system moved to common stanza: doi-system.txt
 
 # Last reviewed by ralight 2026-09-09
 # Updated per ralight 2023-10-06
@@ -68,84 +47,29 @@ HJ https://ebookcentral.proquest.com/lib/iusb-ebooks
 DJ ebookcentral.proquest.com
 NeverProxy acs.ebookcentral.proquest.com
 
+# eHRAF World Cultures moved to common stanza: ehraf-world-cultures.txt
+# Ent Today moved to common stanza: ent-today.txt
 
-# Updated to https per RAL 2019-12-09
-Title eHRAF World Cultures
-URL https://ehrafworldcultures.yale.edu/ehrafe/
-HJ http://ehrafworldcultures.yale.edu
-DJ yale.edu
-HJ hraf01.its.yale.edu
-HJ 130.132.52.51
+# Updated per ralight 2026-09-18
+T Ex Libris 360
+NeverProxy http://tt5xg8qf8p.search.serialssolutions.com
+NeverProxy http://tt5xg8qf8p.cs.serialssolutions.com
+NeverProxy https://tt5xg8qf8p.search.serialssolutions.com
+NeverProxy tt5xg8qf8p.search.serialssolutions.com
 
+# Film Platform moved to common stanza: film-platform.txt
 # Fulcrum moved to common stanza: fulcrum.xt
-# LibLynx moved to common stanza: liblynx.txt
-# Britannica - Consumer moved to common stanza: britannicaacademic.txt
-# Ent Today moved to common stanza
-
-
-Title Film Platform
-URL https://filmplatform.net
-Host filmplatform.net
-Host https://www.filmplatform.net
-Host www.filmplatform.net
-DJ filmplatform.net
-
 # Gale moved to common stanza: gale.text
+# Handbook of Chemistry and Physics moved to common stanza: handbook-chemistry-physics.txt
 # Harper's Weekly moved to common stanza: alexander-street.txt
+# LibLynx moved to common stanza: liblynx.txt
 # IEEE Xplore moved to common stanza: ieee-xplore.txt
-
-T Illiad Interlibrary Loan
-u iusb.hosts.atlas-sys.com 
-D iusb.hosts.atlas-sys.com
-
+# INFORMS PubsOnline moved to common stanza: informs-pubsonline.txt
 # IngentaConnect moved to common stanza: ingentaconnect.txt
-
-
-Title INFORMS PubsOnline (updated 20210719)
-URL https://pubsonline.informs.org/
-HJ da.journal.informs.org
-HJ deca.informs.org
-HJ https://journals.informs.org
-HJ https://www.informs.org/
-HJ ijoc.informs.org
-HJ inte.informs.org
-HJ interfaces.journal.informs.org
-HJ isr.journal.informs.org
-HJ ite.journal.informs.org
-HJ ited.informs.org
-HJ joc.journal.informs.org
-HJ journals.informs.org
-HJ mansci.journal.informs.org
-HJ mktsci.journal.informs.org
-HJ mksc.informs.org
-HJ mnsc.informs.org
-HJ moor.informs.org
-HJ mor.journal.informs.org
-HJ msom.informs.org
-HJ msom.journal.informs.org
-HJ opre.informs.org
-HJ or.journal.informs.org
-HJ orgsci.journal.informs.org
-HJ orsc.informs.org
-HJ pubsonline.informs.org
-HJ transci.journal.informs.org
-HJ trsc.informs.org
-HJ www3.informs.org
-HJ www.informs.org
-DJ informs.org
-
 # JAMAevidence moved to common stanza: mcgraw_hill_medical.txt
-
 # JCR moved to common stanza: clarivate.txt
-
-Title Journal of Philosophy
-URL http://www.pdcnet.org/
-HJ cas.pdcnet.org
-HJ https://www.pdcnet.org
-HJ www.pdcnet.org
-DJ pdcnet.org
-Find var urlNeu=urlAlt.replace(/http:/, "https:");
-Replace var urlNeu=urlAlt.replace(/http:\/\/www.pdcnet.org.*?(\/.*)$/, "https://^swww.pdcnet.org^$1");
+# Journal of Nutrition moved to common stanza: american-society-nutrition.txt
+# Journal of Philosophy moved to common stanza: philosophy-documentation-center.txt
 
 # Cancelling with end of 2026, confirm no PCA and remove stanza. ralight 2026-09-18
 T Labor and Employment Relations Association
@@ -166,6 +90,7 @@ NeverProxy http://libguides.iusb.edu
 NeverProxy https://libguides.iusb.edu
 NeverProxy libguides.iusb.edu
 
+# Liebert moved to common_stanza
 # Loex Quarterly moved to common stanza: loex-quarterly.txt
 
 # Updated per ralight 2026-09-18
@@ -181,6 +106,19 @@ H https://iusb.kanopy.com
 D kanopy.com
 
 # MathSciNet moved to common_stanzas
+
+# Updated per ralight 2026-10-16
+# Cannot move to a common stanza
+Title MRI-Simmons Insights
+URL https://insights.mrisimmons.com/university/iusb
+HJ https://simmonsinsights.com
+HJ https://oneview.simmonsresearch.com
+HJ oneview.simmonsresearch.com
+HJ https://insights.mrisimmons.com/university/indiana
+HJ insights.mrisimmons.com
+D insights.mrisimmons.com
+DJ simmonsinsights.com
+DJ experian.com
 
 # Last reviewed by ralight 2026-10-02
 # Updated per ralight 2025-06-04
@@ -206,6 +144,24 @@ NeverProxy videostream2.naxosmusiclibrary.com
 ## Naxos Music Library Aux Audio CDN Location
 NeverProxy cp82361.edgefcs.net
 
+# Newsbank/Readex Databases moved to common_stanza: newsbank-readex.txt
+# OCLC FirstSearch moved to common stanza: oclc-firstsearch.txt
+# Old City Publishing moved to common stanza: old-city-publishing.txt
+# Oxford Academic moved to common stanza
+# Oxford Art Online moved to common stanza
+# Oxford Music Online moved to common stanza
+# Oxford Reference moved to common stanza
+# Oxford Research Encyclopedia moved to common stanza
+# Oxford African American Studies Center moved to common stanza
+# Modern Language Association moved to common stanza per ralight 2025-08-13
+# Portico moved to common stanza: portico.txt
+# Project Euclid moved to common stanza: project-euclid.txt
+# Project Muse moved to common stanza
+# Proquest Statistical Abstract of the U.S. moved to common stanza: proquest.txt
+# Proquest Statistical Insight moved to common stanza: proquest.txt
+# PsychiatryOnline (American Journal of Psychiatry) moved to common stanza: psychiatryonline.txt
+# PubMed moved to common stanza
+# R2 Digital Library moved to common stanza: r2-digital-library.txt
 
 # Updated per ralight 2026-09-18
 Option CookiePassThrough
@@ -286,28 +242,8 @@ NeverProxy cdn.spgi.spglobal.com
 NeverProxy walkme.com
 Neverproxy secure.signin.spglobal.com
 
-# Oxford Academic moved to common stanza
-# Oxford Art Online moved to common stanza
-# Oxford Music Online moved to common stanza
-# Oxford Reference moved to common stanza
-# Oxford Research Encyclopedia moved to common stanza
-# Oxford African American Studies Center moved to common stanza
-# Modern Language Association moved to common stanza per ralight 2025-08-13
-# Portico moved to common stanza: portico.txt
-# Project Muse moved to common stanza
-# Proquest Statistical Abstract of the U.S. moved to common stanza: proquest.txt
-# Proquest Statistical Insight moved to common stanza: proquest.txt
-# PsychiatryOnline (American Journal of Psychiatry) moved to common stanza: psychiatryonline.txt
-# PubMed moved to common stanza
-
 # Scientific American moved to common stanza: scientific-american.txt
-
-Title MRI-Simmons Insights
-URL https://insights.mrisimmons.com/university/iusb
-HJ insights.mrisimmons.com
-H insights.mrisimmons.com
-DJ insights.mrisimmons.com
-D insights.mrisimmons.com
+# Swank Digital Campus moved to common stanza: swank-digital-campus.txt
 
 # Last reviewed by ralight 2026-09-18
 Title Symptom Media (updated 20240111)
@@ -318,88 +254,13 @@ HJ https://symptommedia.com
 HJ http://symptommedia.com
 DJ symptommedia.com
 
-# Updated per ralight 2026-09-18
-T Ex Libris 360
-NeverProxy http://tt5xg8qf8p.search.serialssolutions.com
-NeverProxy http://tt5xg8qf8p.cs.serialssolutions.com
-NeverProxy https://tt5xg8qf8p.search.serialssolutions.com
-NeverProxy tt5xg8qf8p.search.serialssolutions.com
-
-# Swank Digital Campus moved to common stanza: swank-digital-campus.txt
+# Taylor & Francis moved to common stanza: taylor-francis-online.txt
 # Ulrichsweb moved to common stanza: ulrichsweb.txt
 # University of Chicago Press Journals moved to common stanza: university-chicago-press-journals.txt
 # Value Line moved to common stanza
 
-# OCLC FirstSearch moved to common_stanza
-
-# Last reviewed by ralight 2026-10-02
-# Updated per ralight 2025-08-13
-# New platform for Bates Visual Guide
-Title Clinicalcontext (updated 20250807)
-HTTPHeader -request -process X-Lcc-Organization-Id
-HTTPHeader -request -process X-Lcc-Site-Id
-URL https://clinicalcontext.lww.com
-HJ https://clinicalcontext.lww.com
-HJ https://login.wolterskluwer.com
-HJ https://oneid.wolterskluwer.com
-DJ clinicalcontext.lww.com
-DJ myprofile.wolterskluwer.com
 
 
-T Genetics Journal
-U http://www.genetics.org
-D www.genetics.org
-
-# Liebert moved to common_stanza
-
-# R2 Digital Library moved to common stanza: r2-digital-library.txt
-
-# Taylor & Francis moved to common stanza: taylor-francis-online.txt
-
- 
-T The Journal of Nutrition
-U jn.nutrition.org
-
-
-# Updated per ralight 2022-03-31
-Title University of Illinois Press (updated 20200515)
-URL https://www.press.uillinois.edu
-HJ apq.press.uillinois.edu
-HJ hpq.press.uillinois.edu
-HJ press.uillinois.edu
-HJ www.press.uillinois.edu
-HJ apq.press.illinois.edu
-HJ hpq.press.illinois.edu
-HJ https://paq.press.uillinois.edu
-HJ paq.press.uillinois.edu
-HJ press.illinois.edu
-HJ https://paq.press.uillinois.edu
-HJ paq.press.uillinois.edu
-HJ www.press.illinois.edu
-DJ illinois.edu
-DJ uillinois.edu
-
-Title Project Euclid
-URL https://projecteuclid.org/
-HJ projecteuclid.org
-HJ www.projecteuclid.org
-HJ http://projecteuclid.org
-HJ https://www.projecteuclid.org
-HJ http://www.projecteuclid.org
-DJ projecteuclid.org
-
-
-# Updated per RAL 2020-08-18
-# Single Journals - Women's Art Journal in 360 KB
-Title Old City Publishing
-URL https://www.oldcitypublishing.com
-H http://www.oldcitypublishing.com
-H www.oldcitypublishing.com
-D oldcitypublishing.com
-
-T single Journal
-u https://www.davisart.com
-D www.davisart.com
 
 T Single Journal
 u http://revista-iberoamericana.pitt.edu
@@ -507,11 +368,8 @@ HOST www.r2library.com
 DJ r2library.com
 
 # TeachingBooks moved to common stanza
-
 # Digital Theatre Plus moved to common stanza: digital-theatre-plus.txt
-
 # Access NYT moved to common stanza: access-nyt.txt
-
 # Google Scholar moved to common stanza
 # INSPIRE moved to common stanza
 
@@ -522,7 +380,7 @@ HJ rep.routledge.com
 HJ www.rep.routledge.com
 DJ routledge.com
 
-
+# Asked Steve to obtain latest stanza. ER013 10-16-26
 Option CookiePassThrough
 Title Safari Books
 URL http://proquest.safaribooksonline.com
@@ -557,70 +415,12 @@ DJ ingentaconnect.com
 
 # Psychotherapy.net moved to common stanza
 
-Title New York Times
-URL http://nytimes.com/grouppass
-HJ artsbeat.blogs.nytimes.com
-HJ blogs.nytimes.com
-HJ cn.nytimes.com
-HJ cooking.nytimes.com
-HJ eedition.nytimes.com
-HJ ezmyaccount.nytimes.com
-HJ https://ezmyaccount.nytimes.com
-HJ graphics8.nytimes.com
-HJ https://myaccount.nytimes.com
-HJ international.nytimes.com
-HJ inyt.com
-HJ jobmarket.nytimes.com
-HJ lens.blogs.nytimes.com
-HJ mobile.nytimes.com
-HJ myaccount.nytimes.com
-HJ query.nytimes.com
-HJ nytimes.com
-HJ nytstore.com
-HJ opinionator.blogs.nytimes.com
-HJ parenting.blogs.nytimes.com
-HJ publiceditor.blogs.nytimes.com
-HJ realestate.nytimes.com
-HJ runway.blogs.nytimes.com
-HJ subscribe.inyt.com
-HJ theater.nytimes.com
-HJ tmagazine.blogs.nytimes.com
-HJ travel.nytimes.com
-HJ tvlistings.nytimes.com
-HJ typeface.nytimes.com
-HJ video.nytimes.com
-HJ well.blogs.nytimes.com
-HJ wordplay.blogs.nytimes.com
-HJ www.inyt.com
-HJ www.nytimes.com
-HJ www.nytstore.com
-DJ blogs.nytimes.com
-DJ inyt.com
-DJ nytimes.com
-DJ nytstore.com
-HJ nytimesineducation.com
-HJ www.nytimesineducation.com
-DJ nytimesineducation.com
-
 # Added per ralight 2023-11-16
 Title Scholarly Publishing Collective (updated 20211013)
 URL https://scholarlypublishingcollective.org/
 HJ http://scholarlypublishingcollective.org
 HJ scholarlypublishingcollective.org
 DJ scholarlypublishingcollective.org
-
-# Trial access through June 30, 2024
-# Add per Kirby Cheng 2024-03-18
-Option DomainCookieOnly
-Title Chicago Manual of Style Online (updated 20220223)
-URL http://www.chicagomanualofstyle.org
-HJ https://www.chicagomanualofstyle.org
-HJ chicagomanualofstyle.org
-HJ www.chicagomanualofstyle.org
-HJ login.chicagomanualofstyle.org
-DJ chicagomanualofstyle.org
-DJ login.chicagomanualofstyle.org
-Option Cookie
 
 T Feature Films for Education
 U https://ffusa.infobase.com/
