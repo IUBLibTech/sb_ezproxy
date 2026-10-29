@@ -18,3 +18,4 @@ INCLUDEFILE ../common_stanzas/aacrjournals.txt
 INCLUDEFILE ../common_stanzas/clarivate.txt
 INCLUDEFILE ../common_stanzas/harvard-educational-review.txt
 INCLUDEFILE ../common_stanzas/candid.txt
+INCLUDEFILE ../common_stanzas/oxford-music-online.txt
