@@ -145,6 +145,15 @@ NeverProxy videostream2.naxosmusiclibrary.com
 NeverProxy cp82361.edgefcs.net
 
 # Newsbank/Readex Databases moved to common_stanza: newsbank-readex.txt
+
+# Updated per ralight 2026-10-30
+# NeverProxy stanza used for improved IUCAT display
+Title O'Reilly Learning
+NeverProxy https://www.oreilly.com
+NeverProxy http://www.oreilly.com
+NeverProxy www.oreilly.com
+NeverProxy oreilly.com
+
 # OCLC FirstSearch moved to common stanza: oclc-firstsearch.txt
 # Old City Publishing moved to common stanza: old-city-publishing.txt
 # Oxford Academic moved to common stanza
@@ -379,28 +388,6 @@ URL https://www.rep.routledge.com/
 HJ rep.routledge.com
 HJ www.rep.routledge.com
 DJ routledge.com
-
-# Asked Steve to obtain latest stanza. ER013 10-16-26
-Option CookiePassThrough
-Title Safari Books
-URL http://proquest.safaribooksonline.com
-HJ https://proquest.safaribooksonline.com
-HJ https://proquestcombo.safaribooksonline.com
-HJ https://www.safaribooksonline.com
-HJ proquestcombo.safaribooksonline.com
-HJ www.safaribooksonline.com
-HJ m.proquest.safaribooksonline.com
-HJ https://learning.oreilly.com
-HJ https://www.oreilly.com
-DJ safaribooksonline.com
-Find targetpage=https://
-Replace targetpage=https://^A
-Find document.location.replace(redirectPage);
-Replace redirectPage = redirectPage.replace(/^^http:\/\/proquest.safaribooksonline.com/, "http://^pproquest.safaribooksonline.com^/").replace(/^^https:\/\/ssl.safaribooksonline.com/, "https://^sssl.safaribooksonline.com^/"); document.location.replace(redirectPage);
-Find window.location.replace('http://m' + subDomain + '.safaribooksonline.com
-Replace window.location.replace('http://m' + subDomain + '.^psafaribooksonline.com^
-Option Cookie
-
 
 # Statista stanza replaced by new directive in config.txt
 
