@@ -20,6 +20,7 @@ DJ princeton.edu
 # Artstor moved to common stanza: jstor.txt
 # Britannica - Consumer moved to common stanza: britannicaacademic.txt
 # Cambridge University Press moved to common stanza: cambridge_core.txt
+# Chicago Manual of Style moved to common stanza: chicago-manual-style.txt
 # CIC E-publishing Venture moved to common stanza: cic-epublishing-venture.txt
 
 # Last reviewed by ralight 2026-10-02
