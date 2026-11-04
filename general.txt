@@ -1,8 +1,13 @@
+# 360 Link shared version moved to common stanza: 360-link-shared.txt
 # AAPG Datapages moved to common stanza: aapg-datapages.txt
 # Access Anesthesiology moved to common stanza: mcgraw_hill_medical.txt
 # Access Medicine moved to common stanza: mcgraw_hill_medical.txt
+# Access NYT moved to common stanza: access-nyt.txt
 # Access Surgery moved to common stanza: mcgraw_hill_medical.txt
 # ACM Digital Library moved to common stanza: acmdigital.txt
+# Adam Matthew moved to common stanza: amdigital.txt
+# AIP Publishing Platform (formerly Scitation) moved to common stanza: aip-publishing.txt
+# Alexander Street moved to common stanza: alexanderstreet.txt
 # American Chemical Society moved to common stanza: american-chemical-society.txt
 # American Economic Association moved to common stanza: american-economic-association.txt
 # American Psychological Association (APA) [includes Academic Writer] moved to common stanza: apa_psycnet.txt
@@ -17,14 +22,17 @@ HJ annals.math.princeton.edu
 DJ princeton.edu
 
 # Annual Reviews moved to common stanza: annual-reviews.txt
+# APS Journals moved to common stanza: apsjournals.txt
 # Artstor moved to common stanza: jstor.txt
+# Brill moved to common stanza: brillonline.txt
 # Britannica - Consumer moved to common stanza: britannicaacademic.txt
+# Cabell's moved to common stanza: cabellsdirectories.txt
 # Cambridge University Press moved to common stanza: cambridge_core.txt
 # Chicago Manual of Style moved to common stanza: chicago-manual-style.txt
+# Chronicle of Higher Ed moved to common stanza: chronicle.txt
 # CIC E-publishing Venture moved to common stanza: cic-epublishing-venture.txt
 
 # Last reviewed by ralight 2026-10-02
-# Updated per ralight 2025-08-13
 # New platform for Bates Visual Guide
 Title Clinicalcontext (updated 20250807)
 HTTPHeader -request -process X-Lcc-Organization-Id
@@ -36,10 +44,15 @@ HJ https://oneid.wolterskluwer.com
 DJ clinicalcontext.lww.com
 DJ myprofile.wolterskluwer.com
 
+# Cochrane Library moved to common stanza: cochranelibrary.txt
+# Cookie Law moved to common stanza: cookielaw.txt
+# De Gruyter moved to common stanza: degruyter.txt
+# Digital Theatre Plus moved to common stanza: digital-theatre-plus.txt
+# Docuseek2 moved to common stanza: docuseek2.txt
 # DOI system moved to common stanza: doi-system.txt
+# Duke University Press moved to common stanza: duke.txt
 
 # Last reviewed by ralight 2026-09-09
-# Updated per ralight 2023-10-06
 # Stanza previously called Ebrary
 Title Ebook Central Proxied
 URL https://ebookcentral.proquest.com/lib/iusb-ebooks
@@ -48,8 +61,12 @@ HJ https://ebookcentral.proquest.com/lib/iusb-ebooks
 DJ ebookcentral.proquest.com
 NeverProxy acs.ebookcentral.proquest.com
 
+# EBSCO moved to common stanza: ebscohost.txt
 # eHRAF World Cultures moved to common stanza: ehraf-world-cultures.txt
+# Elsevier moved to common stanza: elsevier.txt
+# Emerald moved to common stanza: emerald.txt
 # Ent Today moved to common stanza: ent-today.txt
+# Ethnologue moved to common stanza: ethnologue.txt
 
 # Updated per ralight 2026-09-18
 T Ex Libris 360
@@ -58,41 +75,38 @@ NeverProxy http://tt5xg8qf8p.cs.serialssolutions.com
 NeverProxy https://tt5xg8qf8p.search.serialssolutions.com
 NeverProxy tt5xg8qf8p.search.serialssolutions.com
 
+# Feature Films for Education moved to common stanza: feature-films-education.txt
 # Film Platform moved to common stanza: film-platform.txt
+# Films on Demand moved to common stanza: filmsondemand.txt
 # Fulcrum moved to common stanza: fulcrum.xt
-# Gale moved to common stanza: gale.text
+# Gale moved to common stanza: gale.txt
+# GetFTR moved to common stanza: getftr.txt
+# Google Scholar moved to common stanza: google-scholar.txt
+# Guilford Publishing moved to common stanza: guilfordpub.txt
 # Handbook of Chemistry and Physics moved to common stanza: handbook-chemistry-physics.txt
-# Harper's Weekly moved to common stanza: alexander-street.txt
-# LibLynx moved to common stanza: liblynx.txt
+
+# Updated per ralight 2026-11-04
+Title Harper's Magazine
+URL https://harpers.org/issues/
+HJ http://harpers.org
+HJ www.harpers.org
+DJ harpers.org
+
+# Harper's Weekly moved to common stanza: alexanderstreet.txt
+# Health Affairs moved to common stanza: healthaffairs.txt
+# Hein Online moved to common stanza: heinonline.txt
 # IEEE Xplore moved to common stanza: ieee-xplore.txt
+# Infobase moved to common stanza: infobase.txt
 # INFORMS PubsOnline moved to common stanza: informs-pubsonline.txt
 # IngentaConnect moved to common stanza: ingentaconnect.txt
+# INSPIRE moved to common stanza: inspire.txt
+# IPA Source moved to common stanza: ipasource.txt
+# JAMA moved to common stanza: jamanetwork.txt
 # JAMAevidence moved to common stanza: mcgraw_hill_medical.txt
 # JCR moved to common stanza: clarivate.txt
 # Journal of Nutrition moved to common stanza: american-society-nutrition.txt
 # Journal of Philosophy moved to common stanza: philosophy-documentation-center.txt
-
-# Cancelling with end of 2026, confirm no PCA and remove stanza. ralight 2026-09-18
-T Labor and Employment Relations Association
-U https://lerachapters.org/
-HJ https://www.leraweb.org/
-H lera.press.illinois.edu
-HJ https://50.87.169.168
-HJ http://www.leraweb.org 
-DJ lerachapters.org
-DJ leraweb.org
-
-# Learning Express Library 3.0 - PrepStep for Colleges moved to common stanza
-
-# Updated per ralight 2026-09-18
-# Stanza used to improve IUCAT experience for SciFinder registration page
-T LibGuides - IUSB
-NeverProxy http://libguides.iusb.edu
-NeverProxy https://libguides.iusb.edu
-NeverProxy libguides.iusb.edu
-
-# Liebert moved to common_stanza
-# Loex Quarterly moved to common stanza: loex-quarterly.txt
+# JSTOR moved to common stanza: jstor.txt
 
 # Updated per ralight 2026-09-18
 Title Kanopy Streaming (updated 20180418)
@@ -106,7 +120,33 @@ URL http://iusb.kanopy.com
 H https://iusb.kanopy.com
 D kanopy.com
 
-# MathSciNet moved to common_stanzas
+# Cancelling with end of 2026, confirm no PCA and remove stanza. ralight 2026-09-18
+T Labor and Employment Relations Association
+U https://lerachapters.org/
+HJ https://www.leraweb.org/
+H lera.press.illinois.edu
+HJ https://50.87.169.168
+HJ http://www.leraweb.org 
+DJ lerachapters.org
+DJ leraweb.org
+
+# Learning Express Library 3.0 - PrepStep for Colleges moved to common stanza: learning-express-library.txt
+# Loeb moved to common stanza: loebclassical.txt
+# LOEX Quarterly moved to common stanza: loex-quarterly.txt
+
+# Updated per ralight 2026-09-18
+# Stanza used to improve IUCAT experience for SciFinder registration page
+T LibGuides - IUSB
+NeverProxy http://libguides.iusb.edu
+NeverProxy https://libguides.iusb.edu
+NeverProxy libguides.iusb.edu
+
+# LibLynx moved to common stanza: liblynx.txt
+# Liebert moved to ccommon stanza: liebert.txt
+# Loex Quarterly moved to common stanza: loex-quarterly.txt
+# MathSciNet moved to common stanza: mathscinet.txt
+# MIT Press moved to common stanza: mitpressdirect.txt
+# Modern Language Association moved to common stanza: modernlanguageassociation.txt
 
 # Updated per ralight 2026-10-16
 # Cannot move to a common stanza
@@ -121,8 +161,9 @@ D insights.mrisimmons.com
 DJ simmonsinsights.com
 DJ experian.com
 
+# Nature Journals moved to common stanza: nature.txt
+
 # Last reviewed by ralight 2026-10-02
-# Updated per ralight 2025-06-04
 Title Naxos Music Library (updated 20250530)
 URL https://iusb.naxosmusiclibrary.com
 HJ iusb.naxosmusiclibrary.com
@@ -145,7 +186,8 @@ NeverProxy videostream2.naxosmusiclibrary.com
 ## Naxos Music Library Aux Audio CDN Location
 NeverProxy cp82361.edgefcs.net
 
-# Newsbank/Readex Databases moved to common_stanza: newsbank-readex.txt
+# New England Journal of Medicine moved to common stanza: nejm.txt
+# Newsbank/Readex Databases moved to common stanza: newsbank-readex.txt
 
 # Updated per ralight 2026-10-30
 # NeverProxy stanza used for improved IUCAT display
@@ -157,21 +199,26 @@ NeverProxy oreilly.com
 
 # OCLC FirstSearch moved to common stanza: oclc-firstsearch.txt
 # Old City Publishing moved to common stanza: old-city-publishing.txt
-# Oxford Academic moved to common stanza
-# Oxford Art Online moved to common stanza
-# Oxford Music Online moved to common stanza
-# Oxford Reference moved to common stanza
-# Oxford Research Encyclopedia moved to common stanza
-# Oxford African American Studies Center moved to common stanza
-# Modern Language Association moved to common stanza per ralight 2025-08-13
+# Ovid moved to common stanza: ovid.txt
+# Oxford Academic moved to common stanza: oxford-academic.txt
+# Oxford African American Studies Center moved to common stanza: oxford-aasc.txt
+# Oxford Art Online moved to common stanza: oxford-art-online.txt
+# Oxford English Dictionary moved to common stanza: oed.txt
+# Oxford Reference moved to common stanza: oxford-reference.txt
+# Oxford Research Encyclopedia moved to common stanza: oxford-research-encyclopedias.txt
+# Philosophy Documentation Center moved to common stanza: philosophy-documentation-center.txt
 # Portico moved to common stanza: portico.txt
+# Proceedings of the National Academy of Sciences moved to common stanza: pnas.txt
 # Project Euclid moved to common stanza: project-euclid.txt
-# Project Muse moved to common stanza
-# Proquest Statistical Abstract of the U.S. moved to common stanza: proquest.txt
-# Proquest Statistical Insight moved to common stanza: proquest.txt
+# Project Muse moved to common stanza: project-muse.txt
+# ProQuest moved to common stanza: proquest.txt
 # PsychiatryOnline (American Journal of Psychiatry) moved to common stanza: psychiatryonline.txt
-# PubMed moved to common stanza
+# Psychotherapy.net moved to common stanza: psychotherapy-net.txt
+# PubMed moved to common stanza: pubmed.txt
 # R2 Digital Library moved to common stanza: r2-digital-library.txt
+# Revista Iberoamericana moved to common stanza: revista-iberoamericana.txt
+# Routledge Encyclopedia of Philosophy moved to common stanza: routledge-encyclopedia-philosophy.txt
+# Royal Society of Chemistry moved to common stanza: royal_society_of_chem.txt
 
 # Updated per ralight 2026-09-18
 Option CookiePassThrough
@@ -252,7 +299,15 @@ NeverProxy cdn.spgi.spglobal.com
 NeverProxy walkme.com
 Neverproxy secure.signin.spglobal.com
 
+# Sage moved to common stanza: sage.txt
+# Salem Press moved to common stanza: salem-press.txt
+# Scholarly Publishing Collective moved to common stanza: scholarly-publishing-collective.txt
+# Science Magazine moved to common stanza: science-magazine.txt
 # Scientific American moved to common stanza: scientific-american.txt
+# SciFinder moved to common stanza: scifinder.txt
+# Society for Industrial and Applied Mathematics (SIAM) moved to common stanza: soc_industrial_appliedmath
+# Springer Nature moved to common stanza: springerlink.txt
+# Statista stanza replaced by new directive in config.txt
 # Swank Digital Campus moved to common stanza: swank-digital-campus.txt
 
 # Last reviewed by ralight 2026-09-18
@@ -265,19 +320,13 @@ HJ http://symptommedia.com
 DJ symptommedia.com
 
 # Taylor & Francis moved to common stanza: taylor-francis-online.txt
+# TeachingBooks moved to common stanza: teachingbooks.txt
+# Thieme moved to common stanza: thiemeejournals.txt
+# Third Iron moved to common stanza: browzine_thirdiron.txt
 # Ulrichsweb moved to common stanza: ulrichsweb.txt
+# University of California Press moved to common stanza: university-california-press.txt
 # University of Chicago Press Journals moved to common stanza: university-chicago-press-journals.txt
-# Value Line moved to common stanza
-
-
-
-
-T Single Journal
-u http://revista-iberoamericana.pitt.edu
-D revista-iberoamericana.pitt.edu
-
-# Salem Press moved to common stanza: salem-press.txt
-
+# Value Line moved to common stanza: value-line.txt
 
 # Updated per ralight 2026-02-18
 # BE SURE TO CUSTOMIZE SPU WHEN UPDATAING STANZA
@@ -341,78 +390,5 @@ DJ westlaw.ie
 DJ westlawchile.cl
 Option Cookie
 
-Title Ethnologue
-URL https://www.ethnologue.com
-
-Title American Philosophical Quarterly
-URL http://apq.press.illinois.edu
-
-AnonymousURL *.otf
-AnonymousURL *.woff*
-Title Tugg Streaming (updated 20180323)
-HTTPHeader -request -process X-TUGG-CODE
-URL https://iusb.tugg.com
-Host iusb.tugg.com
-DJ tugg.com
-Find "/assets/"+document.location.hostname
-Replace "/assets/iusb.tugg.com"
-NeverProxy d3llxikfpf4pa2.tugg.com
-AnonymousURL -*
-
-
-# University of California Press moved to common stanza: university-california-press.txt
-
-Title Harper's Magazine
-URL http://harpers.org/search/
-HJ harpers.org
-DJ harpers.org
-HJ www.harpers.org
-DJ www.harpers.org
-
-
-# AIP Publishing Platform (formerly Scitation) moved to common stanza: aip-publishing.txt
-
-Title r2library.com
-URL https://www.r2library.com
-HOST www.r2library.com
-DJ r2library.com
-
-# TeachingBooks moved to common stanza
-# Digital Theatre Plus moved to common stanza: digital-theatre-plus.txt
-# Access NYT moved to common stanza: access-nyt.txt
-# Google Scholar moved to common stanza
-# INSPIRE moved to common stanza
-
-# Updated per ralight 2026-01-09
-Title Routledge Encyclopedia of Philosophy (updated 20150622)
-URL https://www.rep.routledge.com/
-HJ rep.routledge.com
-HJ www.rep.routledge.com
-DJ routledge.com
-
-# Statista stanza replaced by new directive in config.txt
-
-Title Charleston Advisor
-URL http://charleston.publisher.ingentaconnect.com/content/charleston/chadv/
-HJ https://charleston.publisher.ingentaconnect.com
-HJ charleston.publisher.ingentaconnect.com
-HJ ingentaconnect.com
-DJ ingentaconnect.com
-
-#  Wiley Digital Archives moved to common stanza
-
-# Psychotherapy.net moved to common stanza
-
-# Added per ralight 2023-11-16
-Title Scholarly Publishing Collective (updated 20211013)
-URL https://scholarlypublishingcollective.org/
-HJ http://scholarlypublishingcollective.org
-HJ scholarlypublishingcollective.org
-DJ scholarlypublishingcollective.org
-
-T Feature Films for Education
-U https://ffusa.infobase.com/
-HJ https://MEDIA3.CRITERIONPIC.COM/
-HJ https://MEDIA2.CRITERIONPIC.COM/
-D infobase.com
-DJ CRITERIONPIC.COM
+# Wiley Digital Archives moved to common stanza: wiley-digital-archive.txt
+# Wiley Online Library moved to common stanza: wiley_online.txt
