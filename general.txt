@@ -305,7 +305,7 @@ Neverproxy secure.signin.spglobal.com
 # Science Magazine moved to common stanza: science-magazine.txt
 # Scientific American moved to common stanza: scientific-american.txt
 # SciFinder moved to common stanza: scifinder.txt
-# Society for Industrial and Applied Mathematics (SIAM) moved to common stanza: soc_industrial_appliedmath
+# Society for Industrial and Applied Mathematics (SIAM) moved to common stanza: soc_industrial_appliedmath.txt
 # Springer Nature moved to common stanza: springerlink.txt
 # Statista stanza replaced by new directive in config.txt
 # Swank Digital Campus moved to common stanza: swank-digital-campus.txt
